@@ -11,7 +11,7 @@
 
 Built for the **Google for Startups AI Agents Challenge (Track 1: Build)**.
 
-**Live demo:** `https://<your-cloud-run-url>`  ·  **Repo:** https://github.com/ModernYu001/ModernPace
+**Live demo:** https://pace-427211099336.asia-northeast1.run.app  ·  **Repo:** https://github.com/ModernYu001/ModernPace
 
 ---
 
