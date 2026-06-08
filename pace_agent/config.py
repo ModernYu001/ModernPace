@@ -83,9 +83,13 @@ PACE_LANG = os.getenv("PACE_LANG", "zh")
 LANG_NAMES = {"zh": "Chinese", "en": "English", "ja": "Japanese"}
 
 
-def lang_directive() -> str:
-    """A sentence appended to every agent instruction to fix the reply language."""
-    name = LANG_NAMES.get(PACE_LANG, "Chinese")
+def lang_directive(lang: str | None = None) -> str:
+    """A sentence appended to every agent instruction to fix the reply language.
+
+    Pass an explicit `lang` (zh/en/ja) to override the configured default — this
+    lets the web UI switch language per request without redeploying.
+    """
+    name = LANG_NAMES.get(lang or PACE_LANG, "Chinese")
     return f"\n\nAlways reply to the student in {name}, in a natural, native tone."
 
 

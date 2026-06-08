@@ -56,12 +56,18 @@ def api_quiz(topic: str):
 class DiagIn(BaseModel):
     topic: str
     answers: dict
+    lang: str = ""
 
 
 @app.post("/api/diagnose")
 def api_diagnose(b: DiagIn):
     d = engine.diagnose(b.topic, b.answers)
-    return {"card": engine.render_diagnosis(d), "plan": engine.build_plan(d), "raw": d}
+    lang = b.lang or None
+    return {
+        "card": engine.render_diagnosis(d, lang),
+        "plan": engine.build_plan(d, lang),
+        "raw": d,
+    }
 
 
 @app.get("/api/practice")
@@ -73,24 +79,26 @@ def api_practice(topic: str):
 class GradeIn(BaseModel):
     topic: str
     answer: str
+    lang: str = ""
 
 
 @app.post("/api/grade")
 def api_grade(b: GradeIn):
     g = engine.grade_practice(b.topic, b.answer)
-    return {"ok": g["ok"], "feedback": engine.render_grading(b.topic, g, b.answer)}
+    return {"ok": g["ok"], "feedback": engine.render_grading(b.topic, g, b.answer, b.lang or None)}
 
 
 class ReportIn(BaseModel):
     topic: str
     answers: dict
     ok: bool
+    lang: str = ""
 
 
 @app.post("/api/report")
 def api_report(b: ReportIn):
     d = engine.diagnose(b.topic, b.answers)
-    return {"report": engine.build_report(d, {"ok": b.ok})}
+    return {"report": engine.build_report(d, {"ok": b.ok}, b.lang or None)}
 
 
 class TutorIn(BaseModel):
@@ -98,6 +106,7 @@ class TutorIn(BaseModel):
     topic: str = ""
     diagnosis: str = ""
     message: str = ""
+    lang: str = ""
 
 
 async def _run(runner, sid, adk_sid, text):
@@ -113,7 +122,7 @@ async def _run(runner, sid, adk_sid, text):
 async def api_tutor(b: TutorIn):
     sid = b.session or str(uuid.uuid4())
     if sid not in _tutors:
-        runner = InMemoryRunner(agent=make_tutor(), app_name=APP_NAME)
+        runner = InMemoryRunner(agent=make_tutor(b.lang or None), app_name=APP_NAME)
         s = await runner.session_service.create_session(app_name=APP_NAME, user_id=sid)
         _tutors[sid] = (runner, s.id)
         opening = (f"Topic: {b.topic}. Diagnosis:\n{b.diagnosis}\n\n"

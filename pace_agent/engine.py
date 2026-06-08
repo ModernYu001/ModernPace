@@ -109,12 +109,16 @@ def grade_practice(topic: str, student: str) -> dict:
 
 
 # ── localized templates (replace Planner + Reporter LLM calls) ───────────────
-def _lang() -> str:
-    return PACE_LANG if PACE_LANG in ("zh", "en") else "en"  # ja -> en fallback
+def _lang(lang: str | None = None) -> str:
+    """Resolve the template language. Pass an explicit lang (zh/en/ja) to override
+    the configured default; ja falls back to en for the fixed templates (the LLM
+    Tutor still replies in true Japanese)."""
+    l = lang or PACE_LANG
+    return l if l in ("zh", "en") else "en"  # ja -> en fallback
 
 
-def render_diagnosis(d: dict) -> str:
-    if _lang() == "zh":
+def render_diagnosis(d: dict, lang: str | None = None) -> str:
+    if _lang(lang) == "zh":
         strengths = "；".join(d["strength_notes"][:2]) or "基础概念"
         if not d["gap"]:
             return (f"诊断：{d['topic_label']}\n太棒了，全部答对（{d['score']}/{d['total']}）！"
@@ -135,11 +139,11 @@ def render_diagnosis(d: dict) -> str:
             f"Let's fix this one first.")
 
 
-def build_plan(d: dict) -> str:
+def build_plan(d: dict, lang: str | None = None) -> str:
     note = d["gap_note"] or d["topic_label"]
     if not d["gap"]:
-        note = f"{d['topic_label']} 的进阶应用" if _lang() == "zh" else f"advanced {d['topic_label']}"
-    if _lang() == "zh":
+        note = f"{d['topic_label']} 的进阶应用" if _lang(lang) == "zh" else f"advanced {d['topic_label']}"
+    if _lang(lang) == "zh":
         return ("\n".join([
             f"Today（Day 1）：弄懂核心薄弱点 —— {note}",
             "Day 2：在该知识点上做 3 道针对性练习",
@@ -156,10 +160,10 @@ def build_plan(d: dict) -> str:
     ]))
 
 
-def render_grading(topic: str, g: dict, student: str) -> str:
+def render_grading(topic: str, g: dict, student: str, lang: str | None = None) -> str:
     t = load_topic(topic if topic else DEFAULT_TOPIC)
     note = t["concepts"].get(t["practice"][0].get("concept", ""), "")
-    if _lang() == "zh":
+    if _lang(lang) == "zh":
         head = "✅ 正确！" if g["ok"] else "❌ 还不对。"
         body = "做得好，思路清晰。" if g["ok"] else f"正确做法：{g['answer']}"
         tip = f"\n要点：{note}" if note else ""
@@ -170,11 +174,11 @@ def render_grading(topic: str, g: dict, student: str) -> str:
     return f"{head} {body}{tip}"
 
 
-def build_report(d: dict, g: dict) -> str:
+def build_report(d: dict, g: dict, lang: str | None = None) -> str:
     moved = (d["gap_mastery"], min(100, max(d["gap_mastery"] + 30, 90))) if d["gap"] else (90, 100)
     practice_line_zh = "课堂练习答对了。" if g["ok"] else "课堂练习还需巩固。"
     practice_line_en = "Nailed the practice problem." if g["ok"] else "Still consolidating the practice problem."
-    if _lang() == "zh":
+    if _lang(lang) == "zh":
         focus = d["gap_note"] or "进阶内容"
         return ("主题：" + d["topic_label"] + "\n"
                 "您好，\n"

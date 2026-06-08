@@ -102,8 +102,12 @@ def make_planner() -> LlmAgent:
     )
 
 
-def make_tutor() -> LlmAgent:
-    """The heart of the demo: Socratic one-on-one tutoring."""
+def make_tutor(lang: str | None = None) -> LlmAgent:
+    """The heart of the demo: Socratic one-on-one tutoring.
+
+    `lang` (zh/en/ja) overrides the configured default so the web UI can switch
+    the tutoring language per session without a redeploy.
+    """
     return LlmAgent(
         name="tutor_agent",
         model=make_model(),
@@ -120,7 +124,7 @@ def make_tutor() -> LlmAgent:
             "5. Plain language, encouraging tone, short messages (2-4 sentences).\n"
             "6. You may call get_concept_note(topic, concept) to ground a hint.\n\n"
             "Begin with ONE question that surfaces the student's current thinking."
-            + _L
+            + lang_directive(lang)
         ),
         tools=[get_concept_note],
     )
