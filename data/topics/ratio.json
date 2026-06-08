@@ -1,0 +1,60 @@
+{
+  "topic_label": "比与比的应用",
+  "grade_level": "小学六年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "4:8 化成最简整数比是？",
+      "choices": [
+        "1:2",
+        "2:4",
+        "4:8"
+      ],
+      "answer": "1:2",
+      "concept": "simplify"
+    },
+    {
+      "id": "q2",
+      "prompt": "比的前项除以后项叫？",
+      "choices": [
+        "比值",
+        "比例",
+        "公倍数"
+      ],
+      "answer": "比值",
+      "concept": "meaning"
+    },
+    {
+      "id": "q3",
+      "prompt": "糖水中糖:水=1:9，糖占几份？",
+      "choices": [
+        "1份",
+        "9份",
+        "10份"
+      ],
+      "answer": "1份",
+      "concept": "meaning"
+    }
+  ],
+  "concepts": {
+    "meaning": "两个数相除又叫两个数的比；前项÷后项=比值。",
+    "simplify": "前项后项同时除以最大公因数得最简比。",
+    "apply": "按比分配：先求总份数，再算每份。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "化简比 12:18。",
+      "answer": "12:18 = 2:3。",
+      "key": "2:3",
+      "concept": "simplify"
+    },
+    {
+      "id": "p2",
+      "prompt": "按 2:3 把20个分成两份，较多的一份是多少？",
+      "answer": "20÷5×3=12。",
+      "key": "12",
+      "concept": "apply"
+    }
+  ]
+}

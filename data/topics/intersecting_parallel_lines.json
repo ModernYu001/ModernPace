@@ -1,0 +1,60 @@
+{
+  "topic_label": "相交线与平行线",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "对顶角的关系是？",
+      "choices": [
+        "相等",
+        "互补",
+        "互余"
+      ],
+      "answer": "相等",
+      "concept": "vertical_angle"
+    },
+    {
+      "id": "q2",
+      "prompt": "两直线平行，同位角？",
+      "choices": [
+        "相等",
+        "互补",
+        "不确定"
+      ],
+      "answer": "相等",
+      "concept": "parallel_angles"
+    },
+    {
+      "id": "q3",
+      "prompt": "两条直线相交成直角，叫互相？",
+      "choices": [
+        "平行",
+        "垂直",
+        "重合"
+      ],
+      "answer": "垂直",
+      "concept": "perpendicular"
+    }
+  ],
+  "concepts": {
+    "vertical_angle": "对顶角相等。",
+    "parallel_angles": "两直线平行，同位角相等、内错角相等、同旁内角互补。",
+    "perpendicular": "两条直线相交成直角时，称这两条直线互相垂直。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "一个角是50°，它的对顶角是多少度？",
+      "answer": "对顶角相等，50°。",
+      "key": "50",
+      "concept": "vertical_angle"
+    },
+    {
+      "id": "p2",
+      "prompt": "两直线平行，一个同位角110°，另一同位角多少度？",
+      "answer": "相等，110°。",
+      "key": "110",
+      "concept": "parallel_angles"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "植树问题",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "一条路两端都栽树，分成5段，共栽几棵？",
+      "choices": [
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "6",
+      "concept": "both_ends"
+    },
+    {
+      "id": "q2",
+      "prompt": "两端都栽时，棵数比段数？",
+      "choices": [
+        "多1",
+        "少1",
+        "相等"
+      ],
+      "answer": "多1",
+      "concept": "both_ends"
+    },
+    {
+      "id": "q3",
+      "prompt": "全长20米每5米栽一棵(两端都栽)，共几棵？",
+      "choices": [
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "5",
+      "concept": "both_ends"
+    }
+  ],
+  "concepts": {
+    "both_ends": "两端都栽：棵数 = 段数 + 1。",
+    "one_end": "只栽一端：棵数 = 段数。",
+    "circle": "封闭路线：棵数 = 段数。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "100米的路每10米栽一棵，两端都栽，共几棵？",
+      "answer": "100÷10=10段，10+1=11棵。",
+      "key": "11",
+      "concept": "both_ends"
+    },
+    {
+      "id": "p2",
+      "prompt": "两端都栽，栽了8棵，分成几段？",
+      "answer": "8−1=7段。",
+      "key": "7",
+      "concept": "both_ends"
+    }
+  ]
+}

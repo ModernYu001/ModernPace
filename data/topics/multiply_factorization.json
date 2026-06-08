@@ -1,0 +1,60 @@
+{
+  "topic_label": "整式的乘法与因式分解",
+  "grade_level": "初中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "(a+b)² 等于？",
+      "choices": [
+        "a²+b²",
+        "a²+2ab+b²",
+        "a²−b²"
+      ],
+      "answer": "a²+2ab+b²",
+      "concept": "expand"
+    },
+    {
+      "id": "q2",
+      "prompt": "a²−b² 等于？",
+      "choices": [
+        "(a−b)²",
+        "(a+b)(a−b)",
+        "(a+b)²"
+      ],
+      "answer": "(a+b)(a−b)",
+      "concept": "diff_squares"
+    },
+    {
+      "id": "q3",
+      "prompt": "因式分解 2a+2b 等于？",
+      "choices": [
+        "2(a+b)",
+        "2a+b",
+        "a+b"
+      ],
+      "answer": "2(a+b)",
+      "concept": "factor"
+    }
+  ],
+  "concepts": {
+    "expand": "完全平方公式 (a±b)²=a²±2ab+b²。",
+    "diff_squares": "平方差公式 a²−b²=(a+b)(a−b)。",
+    "factor": "因式分解先提公因式，再考虑公式法。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "把 x²−9 因式分解。",
+      "answer": "x²−9=(x+3)(x−3)。",
+      "key": "(x+3)(x−3)",
+      "concept": "diff_squares"
+    },
+    {
+      "id": "p2",
+      "prompt": "把 3x+6 因式分解。",
+      "answer": "3(x+2)。",
+      "key": "3(x+2)",
+      "concept": "factor"
+    }
+  ]
+}

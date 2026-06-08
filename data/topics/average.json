@@ -1,0 +1,60 @@
+{
+  "topic_label": "平均数",
+  "grade_level": "小学四年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "求平均数用什么方法？",
+      "choices": [
+        "总和÷个数",
+        "总和×个数",
+        "最大值"
+      ],
+      "answer": "总和÷个数",
+      "concept": "formula"
+    },
+    {
+      "id": "q2",
+      "prompt": "2、4、6 的平均数是多少？",
+      "choices": [
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": "4",
+      "concept": "formula"
+    },
+    {
+      "id": "q3",
+      "prompt": "平均数反映一组数据的什么？",
+      "choices": [
+        "最大值",
+        "总体水平",
+        "最小值"
+      ],
+      "answer": "总体水平",
+      "concept": "meaning"
+    }
+  ],
+  "concepts": {
+    "formula": "平均数 = 总和 ÷ 个数。",
+    "meaning": "平均数反映一组数据的总体水平，会受极端值影响。",
+    "move": "可用'移多补少'理解平均数。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "5、7、9、11 的平均数是多少？",
+      "answer": "(5+7+9+11)÷4=32÷4=8。",
+      "key": "8",
+      "concept": "formula"
+    },
+    {
+      "id": "p2",
+      "prompt": "三次考试 80、90、100 的平均分。",
+      "answer": "270÷3=90。",
+      "key": "90",
+      "concept": "formula"
+    }
+  ]
+}

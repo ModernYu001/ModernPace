@@ -1,0 +1,60 @@
+{
+  "topic_label": "计数原理与排列组合",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "完成一件事需要分几步，用什么原理？",
+      "choices": [
+        "分步乘法",
+        "分类加法",
+        "都不用"
+      ],
+      "answer": "分步乘法",
+      "concept": "addition_mult"
+    },
+    {
+      "id": "q2",
+      "prompt": "从3个不同元素取2个排列 A(3,2) 等于？",
+      "choices": [
+        "6",
+        "3",
+        "9"
+      ],
+      "answer": "6",
+      "concept": "permutation"
+    },
+    {
+      "id": "q3",
+      "prompt": "从3个不同元素取2个组合 C(3,2) 等于？",
+      "choices": [
+        "3",
+        "6",
+        "2"
+      ],
+      "answer": "3",
+      "concept": "combination"
+    }
+  ],
+  "concepts": {
+    "addition_mult": "分类用加法原理，分步用乘法原理。",
+    "permutation": "排列(有序)：A(n,m)=n(n−1)...(n−m+1)。",
+    "combination": "组合(无序)：C(n,m)=A(n,m)/m!。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "计算 A(4,2)。",
+      "answer": "4×3=12。",
+      "key": "12",
+      "concept": "permutation"
+    },
+    {
+      "id": "p2",
+      "prompt": "计算 C(4,2)。",
+      "answer": "4×3/(2×1)=6。",
+      "key": "6",
+      "concept": "combination"
+    }
+  ]
+}

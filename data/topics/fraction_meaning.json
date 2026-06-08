@@ -1,0 +1,60 @@
+{
+  "topic_label": "分数的意义和性质",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "把1个饼平均分成4份，每份是？",
+      "choices": [
+        "1/2",
+        "1/4",
+        "4"
+      ],
+      "answer": "1/4",
+      "concept": "meaning"
+    },
+    {
+      "id": "q2",
+      "prompt": "1/2 和 2/4 的关系是？",
+      "choices": [
+        "相等",
+        "1/2大",
+        "2/4大"
+      ],
+      "answer": "相等",
+      "concept": "basic_property"
+    },
+    {
+      "id": "q3",
+      "prompt": "分数的分子分母同时乘3，分数大小？",
+      "choices": [
+        "变大",
+        "不变",
+        "变小"
+      ],
+      "answer": "不变",
+      "concept": "basic_property"
+    }
+  ],
+  "concepts": {
+    "meaning": "把单位'1'平均分成若干份，表示一份或几份的数叫分数。",
+    "basic_property": "分子分母同时乘或除以相同(非零)数，分数大小不变。",
+    "compare": "分子比分母小的真分数小于1。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "把 2/3 的分子分母同时乘2，得多少？",
+      "answer": "4/6。",
+      "key": "4/6",
+      "concept": "basic_property"
+    },
+    {
+      "id": "p2",
+      "prompt": "3/4 和 1 比，哪个大？",
+      "answer": "1大（3/4<1）。",
+      "key": "1",
+      "concept": "compare"
+    }
+  ]
+}

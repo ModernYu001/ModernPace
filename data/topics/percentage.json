@@ -1,0 +1,18 @@
+{
+  "topic_label": "百分数的应用",
+  "grade_level": "小学六年级",
+  "questions": [
+    { "id": "q1", "prompt": "25% 等于下面哪个分数？", "choices": ["1/2", "1/4", "1/5"], "answer": "1/4", "concept": "percent_fraction" },
+    { "id": "q2", "prompt": "某商品原价100元，涨价20%后是多少元？", "choices": ["120", "20", "80"], "answer": "120", "concept": "percent_increase" },
+    { "id": "q3", "prompt": "80 是 200 的百分之几？", "choices": ["40%", "25%", "160%"], "answer": "40%", "concept": "percent_of" }
+  ],
+  "concepts": {
+    "percent_fraction": "百分数与分数互化：25%=25/100=1/4，50%=1/2。",
+    "percent_increase": "涨价/增加：新值 = 原值 ×(1+百分率)，如 100×(1+20%)=120。",
+    "percent_of": "求一个数是另一个数的百分之几：用部分 ÷ 总量 ×100%，如 80÷200=40%。"
+  },
+  "practice": [
+    { "id": "p1", "prompt": "一件衣服原价200元，打8折后多少钱？", "answer": "8折就是80%，200×80%=160元。", "key": "160", "concept": "percent_of" },
+    { "id": "p2", "prompt": "某班50人，出勤率96%，缺勤几人？", "answer": "缺勤率=1−96%=4%，50×4%=2人。", "key": "2", "concept": "percent_of" }
+  ]
+}

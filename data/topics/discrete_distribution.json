@@ -1,0 +1,60 @@
+{
+  "topic_label": "离散型随机变量及其分布",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "离散型随机变量分布列中所有概率之和为？",
+      "choices": [
+        "0",
+        "1",
+        "0.5"
+      ],
+      "answer": "1",
+      "concept": "distribution"
+    },
+    {
+      "id": "q2",
+      "prompt": "期望 E(X) 等于？",
+      "choices": [
+        "Σx·p",
+        "Σp",
+        "最大x"
+      ],
+      "answer": "Σx·p",
+      "concept": "expectation"
+    },
+    {
+      "id": "q3",
+      "prompt": "随机变量取每个值都对应一个？",
+      "choices": [
+        "概率",
+        "区间",
+        "函数"
+      ],
+      "answer": "概率",
+      "concept": "distribution"
+    }
+  ],
+  "concepts": {
+    "distribution": "分布列列出随机变量每个取值及对应概率，概率之和为1。",
+    "expectation": "数学期望 E(X)=Σ x_i·p_i，反映平均水平。",
+    "variance": "方差 D(X) 反映取值的离散程度。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "X 取1、2，概率0.3、0.7，求 E(X)。",
+      "answer": "1×0.3+2×0.7=1.7。",
+      "key": "1.7",
+      "concept": "expectation"
+    },
+    {
+      "id": "p2",
+      "prompt": "分布列中所有概率加起来等于多少？",
+      "answer": "1。",
+      "key": "1",
+      "concept": "distribution"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "比例与比例尺",
+  "grade_level": "小学六年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "表示两个比相等的式子叫？",
+      "choices": [
+        "比例",
+        "比值",
+        "方程"
+      ],
+      "answer": "比例",
+      "concept": "proportion_def"
+    },
+    {
+      "id": "q2",
+      "prompt": "比例尺 1:1000 表示图上1cm代表实际？",
+      "choices": [
+        "1000cm",
+        "100cm",
+        "10cm"
+      ],
+      "answer": "1000cm",
+      "concept": "scale"
+    },
+    {
+      "id": "q3",
+      "prompt": "解比例 2:3 = 4:x，x 等于？",
+      "choices": [
+        "6",
+        "5",
+        "8"
+      ],
+      "answer": "6",
+      "concept": "solve"
+    }
+  ],
+  "concepts": {
+    "proportion_def": "表示两个比相等的式子叫比例，如 a:b=c:d。",
+    "scale": "比例尺 = 图上距离 : 实际距离。",
+    "solve": "解比例可用'内项积=外项积'。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "解比例 x:4 = 3:6。",
+      "answer": "6x=12，x=2。",
+      "key": "2",
+      "concept": "solve"
+    },
+    {
+      "id": "p2",
+      "prompt": "比例尺 1:500，图上2cm代表实际多少cm？",
+      "answer": "2×500=1000cm。",
+      "key": "1000",
+      "concept": "scale"
+    }
+  ]
+}

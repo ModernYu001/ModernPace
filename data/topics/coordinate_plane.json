@@ -1,0 +1,60 @@
+{
+  "topic_label": "平面直角坐标系",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "点 (2,3) 在第几象限？",
+      "choices": [
+        "第一",
+        "第二",
+        "第三"
+      ],
+      "answer": "第一",
+      "concept": "quadrant"
+    },
+    {
+      "id": "q2",
+      "prompt": "点 (−1,−4) 在第几象限？",
+      "choices": [
+        "第二",
+        "第三",
+        "第四"
+      ],
+      "answer": "第三",
+      "concept": "quadrant"
+    },
+    {
+      "id": "q3",
+      "prompt": "x 轴上点的纵坐标是？",
+      "choices": [
+        "0",
+        "1",
+        "任意"
+      ],
+      "answer": "0",
+      "concept": "axis"
+    }
+  ],
+  "concepts": {
+    "quadrant": "四个象限：(+,+)一、(−,+)二、(−,−)三、(+,−)四。",
+    "coordinates": "点的坐标(x,y)：x是横坐标，y是纵坐标。",
+    "axis": "x轴上点的纵坐标为0，y轴上点的横坐标为0。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "点 (−3,2) 在第几象限？",
+      "answer": "横负纵正，第二象限。",
+      "key": "二",
+      "concept": "quadrant"
+    },
+    {
+      "id": "p2",
+      "prompt": "原点的坐标是？",
+      "answer": "(0,0)。",
+      "key": "(0,0)",
+      "concept": "coordinates"
+    }
+  ]
+}

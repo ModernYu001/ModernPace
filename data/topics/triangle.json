@@ -1,0 +1,60 @@
+{
+  "topic_label": "三角形与多边形内角和",
+  "grade_level": "初中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "四边形的内角和是？",
+      "choices": [
+        "180°",
+        "360°",
+        "540°"
+      ],
+      "answer": "360°",
+      "concept": "polygon_sum"
+    },
+    {
+      "id": "q2",
+      "prompt": "三角形内角和是？",
+      "choices": [
+        "90°",
+        "180°",
+        "360°"
+      ],
+      "answer": "180°",
+      "concept": "triangle_sum"
+    },
+    {
+      "id": "q3",
+      "prompt": "五边形内角和是？",
+      "choices": [
+        "360°",
+        "540°",
+        "720°"
+      ],
+      "answer": "540°",
+      "concept": "polygon_sum"
+    }
+  ],
+  "concepts": {
+    "triangle_sum": "三角形内角和为180°。",
+    "polygon_sum": "n边形内角和 =(n−2)×180°。",
+    "exterior": "三角形的一个外角等于与它不相邻的两个内角之和。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "六边形的内角和是多少度？",
+      "answer": "(6−2)×180=720°。",
+      "key": "720",
+      "concept": "polygon_sum"
+    },
+    {
+      "id": "p2",
+      "prompt": "三角形两内角50°、60°，与它们都不相邻的外角是多少度？",
+      "answer": "50+60=110°。",
+      "key": "110",
+      "concept": "exterior"
+    }
+  ]
+}

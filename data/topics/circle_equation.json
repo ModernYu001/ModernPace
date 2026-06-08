@@ -1,0 +1,60 @@
+{
+  "topic_label": "圆的方程",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "圆 (x−1)²+(y−2)²=9 的圆心是？",
+      "choices": [
+        "(1,2)",
+        "(−1,−2)",
+        "(3,3)"
+      ],
+      "answer": "(1,2)",
+      "concept": "center_radius"
+    },
+    {
+      "id": "q2",
+      "prompt": "该圆的半径是？",
+      "choices": [
+        "3",
+        "9",
+        "√3"
+      ],
+      "answer": "3",
+      "concept": "center_radius"
+    },
+    {
+      "id": "q3",
+      "prompt": "圆的标准方程中 r 表示？",
+      "choices": [
+        "半径",
+        "直径",
+        "面积"
+      ],
+      "answer": "半径",
+      "concept": "standard"
+    }
+  ],
+  "concepts": {
+    "standard": "圆的标准方程 (x−a)²+(y−b)²=r²。",
+    "center_radius": "圆心(a,b)，半径 r。",
+    "general": "一般方程 x²+y²+Dx+Ey+F=0 可配方化为标准形式。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "圆 (x−2)²+(y+1)²=16 的圆心和半径。",
+      "answer": "圆心(2,−1)，半径4。",
+      "key": "(2,−1)",
+      "concept": "center_radius"
+    },
+    {
+      "id": "p2",
+      "prompt": "圆 x²+y²=25 的半径是多少？",
+      "answer": "5。",
+      "key": "5",
+      "concept": "center_radius"
+    }
+  ]
+}

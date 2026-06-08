@@ -1,0 +1,60 @@
+{
+  "topic_label": "轴对称",
+  "grade_level": "初中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "等腰三角形的对称轴是？",
+      "choices": [
+        "底边上的高(中线)",
+        "任意中线",
+        "没有"
+      ],
+      "answer": "底边上的高(中线)",
+      "concept": "isosceles"
+    },
+    {
+      "id": "q2",
+      "prompt": "轴对称图形沿对称轴对折后？",
+      "choices": [
+        "完全重合",
+        "错开",
+        "变大"
+      ],
+      "answer": "完全重合",
+      "concept": "axis"
+    },
+    {
+      "id": "q3",
+      "prompt": "线段的对称轴是它的？",
+      "choices": [
+        "垂直平分线",
+        "延长线",
+        "任意直线"
+      ],
+      "answer": "垂直平分线",
+      "concept": "property"
+    }
+  ],
+  "concepts": {
+    "axis": "沿对称轴对折，两旁部分完全重合。",
+    "property": "对称轴是任何一对对应点连线的垂直平分线。",
+    "isosceles": "等腰三角形是轴对称图形，对称轴是底边上的高(也是中线、顶角平分线)。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "正方形有几条对称轴？",
+      "answer": "4条。",
+      "key": "4",
+      "concept": "axis"
+    },
+    {
+      "id": "p2",
+      "prompt": "等边三角形有几条对称轴？",
+      "answer": "3条。",
+      "key": "3",
+      "concept": "axis"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "解三角形（正弦、余弦定理）",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "正弦定理 a/sinA 等于？",
+      "choices": [
+        "b/sinB",
+        "b/cosB",
+        "sinB/b"
+      ],
+      "answer": "b/sinB",
+      "concept": "law_sines"
+    },
+    {
+      "id": "q2",
+      "prompt": "余弦定理 c²=a²+b²− 什么？",
+      "choices": [
+        "2abcosC",
+        "2ab",
+        "abcosC"
+      ],
+      "answer": "2abcosC",
+      "concept": "law_cosines"
+    },
+    {
+      "id": "q3",
+      "prompt": "已知两角一边求其他边，用？",
+      "choices": [
+        "正弦定理",
+        "余弦定理",
+        "勾股定理"
+      ],
+      "answer": "正弦定理",
+      "concept": "law_sines"
+    }
+  ],
+  "concepts": {
+    "law_sines": "正弦定理：a/sinA = b/sinB = c/sinC = 2R。",
+    "law_cosines": "余弦定理：c²=a²+b²−2ab·cosC。",
+    "use": "两角一边或两边一对角用正弦定理；两边夹角或三边用余弦定理。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "三角形中 a=3,b=4,C=90°，用余弦定理求 c。",
+      "answer": "c²=9+16−0=25，c=5。",
+      "key": "5",
+      "concept": "law_cosines"
+    },
+    {
+      "id": "p2",
+      "prompt": "正弦定理描述了边与什么的关系？",
+      "answer": "边与其对角正弦成正比。",
+      "key": "正弦",
+      "concept": "law_sines"
+    }
+  ]
+}

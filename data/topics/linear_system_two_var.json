@@ -1,0 +1,60 @@
+{
+  "topic_label": "二元一次方程组",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "解二元一次方程组常用？",
+      "choices": [
+        "代入法或加减法",
+        "求导",
+        "因式分解"
+      ],
+      "answer": "代入法或加减法",
+      "concept": "elimination"
+    },
+    {
+      "id": "q2",
+      "prompt": "方程组 x+y=5, x−y=1 中 x 等于？",
+      "choices": [
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": "3",
+      "concept": "elimination"
+    },
+    {
+      "id": "q3",
+      "prompt": "二元一次方程组的解是？",
+      "choices": [
+        "一对 x、y 的值",
+        "一个数",
+        "无解"
+      ],
+      "answer": "一对 x、y 的值",
+      "concept": "solution"
+    }
+  ],
+  "concepts": {
+    "substitution": "代入消元：把一个未知数用另一个表示后代入。",
+    "elimination": "加减消元：把两方程相加或相减消去一个未知数。",
+    "solution": "二元一次方程组的解是一对同时满足两方程的 x、y 值。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "解方程组 x+y=10, x−y=2。",
+      "answer": "两式相加 2x=12，x=6，y=4。",
+      "key": "x=6",
+      "concept": "elimination"
+    },
+    {
+      "id": "p2",
+      "prompt": "由 x+y=7 和 x=3，求 y。",
+      "answer": "y=7−3=4。",
+      "key": "4",
+      "concept": "substitution"
+    }
+  ]
+}

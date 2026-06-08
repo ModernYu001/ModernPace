@@ -1,0 +1,60 @@
+{
+  "topic_label": "二次函数",
+  "grade_level": "初中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "二次函数的图象是？",
+      "choices": [
+        "直线",
+        "抛物线",
+        "双曲线"
+      ],
+      "answer": "抛物线",
+      "concept": "parabola"
+    },
+    {
+      "id": "q2",
+      "prompt": "y=x² 的开口方向是？",
+      "choices": [
+        "向上",
+        "向下",
+        "向左"
+      ],
+      "answer": "向上",
+      "concept": "parabola"
+    },
+    {
+      "id": "q3",
+      "prompt": "y=ax²+bx+c 中决定开口方向的是？",
+      "choices": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": "a",
+      "concept": "parabola"
+    }
+  ],
+  "concepts": {
+    "form": "二次函数一般形式 y=ax²+bx+c(a≠0)。",
+    "parabola": "图象是抛物线；a>0 开口向上，a<0 开口向下。",
+    "vertex": "对称轴 x=−b/2a，顶点在对称轴上。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "函数 y=2x² 开口向上还是向下？",
+      "answer": "a=2>0，向上。",
+      "key": "向上",
+      "concept": "parabola"
+    },
+    {
+      "id": "p2",
+      "prompt": "y=x²−2x+1=(x−1)² 的顶点坐标是？",
+      "answer": "(1,0)。",
+      "key": "(1,0)",
+      "concept": "vertex"
+    }
+  ]
+}

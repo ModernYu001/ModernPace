@@ -1,0 +1,60 @@
+{
+  "topic_label": "函数与方程（零点）",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "函数的零点是指 f(x)= 什么 的根？",
+      "choices": [
+        "0",
+        "1",
+        "x"
+      ],
+      "answer": "0",
+      "concept": "zero_def"
+    },
+    {
+      "id": "q2",
+      "prompt": "若 f(a)·f(b)<0(f连续)，则区间(a,b)内？",
+      "choices": [
+        "至少有一个零点",
+        "没有零点",
+        "只有1个"
+      ],
+      "answer": "至少有一个零点",
+      "concept": "existence"
+    },
+    {
+      "id": "q3",
+      "prompt": "y=x−2 的零点是？",
+      "choices": [
+        "x=2",
+        "x=0",
+        "x=−2"
+      ],
+      "answer": "x=2",
+      "concept": "zero_def"
+    }
+  ],
+  "concepts": {
+    "zero_def": "使 f(x)=0 的实数 x 叫函数的零点，即图象与 x 轴交点的横坐标。",
+    "existence": "零点存在定理：连续函数在端点函数值异号则区间内至少有一个零点。",
+    "method": "可用图象法、二分法求近似零点。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "求函数 f(x)=2x−6 的零点。",
+      "answer": "2x−6=0，x=3。",
+      "key": "3",
+      "concept": "zero_def"
+    },
+    {
+      "id": "p2",
+      "prompt": "f(x)=x²−4 有几个零点？",
+      "answer": "x=±2，共2个。",
+      "key": "2",
+      "concept": "zero_def"
+    }
+  ]
+}

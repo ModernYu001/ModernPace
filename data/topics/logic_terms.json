@@ -1,0 +1,60 @@
+{
+  "topic_label": "常用逻辑用语（充分必要条件）",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "'x>2' 是 'x>1' 的什么条件？",
+      "choices": [
+        "充分不必要",
+        "必要不充分",
+        "充要"
+      ],
+      "answer": "充分不必要",
+      "concept": "sufficient"
+    },
+    {
+      "id": "q2",
+      "prompt": "若 p⇒q 且 q⇒p，则 p 是 q 的？",
+      "choices": [
+        "充分条件",
+        "必要条件",
+        "充要条件"
+      ],
+      "answer": "充要条件",
+      "concept": "necessary"
+    },
+    {
+      "id": "q3",
+      "prompt": "全称命题的否定是？",
+      "choices": [
+        "全称命题",
+        "特称(存在)命题",
+        "原命题"
+      ],
+      "answer": "特称(存在)命题",
+      "concept": "negation"
+    }
+  ],
+  "concepts": {
+    "sufficient": "若 p⇒q，则 p 是 q 的充分条件。",
+    "necessary": "若 q⇒p，则 p 是 q 的必要条件；既充分又必要叫充要条件。",
+    "negation": "全称命题的否定是存在命题，'都'改'存在不'。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "'x=1' 是 'x²=1' 的什么条件？",
+      "answer": "充分不必要(x=1⇒x²=1，但x²=1还有x=−1)。",
+      "key": "充分不必要",
+      "concept": "sufficient"
+    },
+    {
+      "id": "p2",
+      "prompt": "命题'所有同学都及格'的否定是什么？",
+      "answer": "存在一个同学不及格。",
+      "key": "存在",
+      "concept": "negation"
+    }
+  ]
+}

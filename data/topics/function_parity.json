@@ -1,0 +1,60 @@
+{
+  "topic_label": "函数的奇偶性",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "偶函数满足？",
+      "choices": [
+        "f(−x)=f(x)",
+        "f(−x)=−f(x)",
+        "f(x)=0"
+      ],
+      "answer": "f(−x)=f(x)",
+      "concept": "even"
+    },
+    {
+      "id": "q2",
+      "prompt": "y=x² 是？",
+      "choices": [
+        "奇函数",
+        "偶函数",
+        "非奇非偶"
+      ],
+      "answer": "偶函数",
+      "concept": "even"
+    },
+    {
+      "id": "q3",
+      "prompt": "y=x³ 是？",
+      "choices": [
+        "奇函数",
+        "偶函数",
+        "非奇非偶"
+      ],
+      "answer": "奇函数",
+      "concept": "odd"
+    }
+  ],
+  "concepts": {
+    "even": "满足 f(−x)=f(x) 的是偶函数，图象关于 y 轴对称。",
+    "odd": "满足 f(−x)=−f(x) 的是奇函数，图象关于原点对称。",
+    "symmetry": "判断奇偶性先看定义域是否关于原点对称。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "判断 y=x² 的奇偶性。",
+      "answer": "f(−x)=x²=f(x)，偶函数。",
+      "key": "偶",
+      "concept": "even"
+    },
+    {
+      "id": "p2",
+      "prompt": "奇函数的图象关于什么对称？",
+      "answer": "原点。",
+      "key": "原点",
+      "concept": "odd"
+    }
+  ]
+}

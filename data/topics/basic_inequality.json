@@ -1,0 +1,60 @@
+{
+  "topic_label": "基本不等式",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "基本不等式：a,b>0 时 a+b ≥ ?",
+      "choices": [
+        "2√(ab)",
+        "√(ab)",
+        "ab"
+      ],
+      "answer": "2√(ab)",
+      "concept": "formula"
+    },
+    {
+      "id": "q2",
+      "prompt": "a+b≥2√(ab) 取等号的条件是？",
+      "choices": [
+        "a=b",
+        "a>b",
+        "a=0"
+      ],
+      "answer": "a=b",
+      "concept": "equality"
+    },
+    {
+      "id": "q3",
+      "prompt": "基本不等式要求 a、b？",
+      "choices": [
+        "都为正",
+        "都为负",
+        "任意"
+      ],
+      "answer": "都为正",
+      "concept": "condition"
+    }
+  ],
+  "concepts": {
+    "formula": "基本不等式：a,b>0 时 a+b≥2√(ab)。",
+    "condition": "使用前提是 a、b 都为正数。",
+    "equality": "当且仅当 a=b 时取等号。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "x>0 时，x+1/x 的最小值是多少？",
+      "answer": "x+1/x≥2√1=2，当x=1取最小值2。",
+      "key": "2",
+      "concept": "formula"
+    },
+    {
+      "id": "p2",
+      "prompt": "a,b>0 且 a+b=2√(ab) 时，a 与 b 的关系？",
+      "answer": "a=b。",
+      "key": "a=b",
+      "concept": "equality"
+    }
+  ]
+}

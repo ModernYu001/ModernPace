@@ -1,0 +1,60 @@
+{
+  "topic_label": "数列的通项与求和",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "等差数列前 n 项和公式 Sn=？",
+      "choices": [
+        "n(a1+an)/2",
+        "a1·n",
+        "an−a1"
+      ],
+      "answer": "n(a1+an)/2",
+      "concept": "arithmetic_sum"
+    },
+    {
+      "id": "q2",
+      "prompt": "等差数列 1,2,3,...,100 的和是？",
+      "choices": [
+        "5050",
+        "100",
+        "10000"
+      ],
+      "answer": "5050",
+      "concept": "arithmetic_sum"
+    },
+    {
+      "id": "q3",
+      "prompt": "求 1+2+3+...+n 用？",
+      "choices": [
+        "等差求和",
+        "等比求和",
+        "直接列举"
+      ],
+      "answer": "等差求和",
+      "concept": "arithmetic_sum"
+    }
+  ],
+  "concepts": {
+    "arithmetic_sum": "等差数列前n项和 Sn=n(a1+an)/2=na1+n(n−1)d/2。",
+    "geometric_sum": "等比数列前n项和 Sn=a1(1−qⁿ)/(1−q)(q≠1)。",
+    "general_term": "先求通项，再代入求和公式。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "求 1+2+...+10 的和。",
+      "answer": "10×(1+10)/2=55。",
+      "key": "55",
+      "concept": "arithmetic_sum"
+    },
+    {
+      "id": "p2",
+      "prompt": "等差数列首项2、末项20、共10项，求和。",
+      "answer": "10×(2+20)/2=110。",
+      "key": "110",
+      "concept": "arithmetic_sum"
+    }
+  ]
+}

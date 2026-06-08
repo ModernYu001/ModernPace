@@ -1,0 +1,60 @@
+{
+  "topic_label": "二项分布与正态分布",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "二项分布 B(n,p) 的期望是？",
+      "choices": [
+        "np",
+        "n+p",
+        "p"
+      ],
+      "answer": "np",
+      "concept": "binomial"
+    },
+    {
+      "id": "q2",
+      "prompt": "正态分布曲线关于哪条线对称？",
+      "choices": [
+        "x=μ",
+        "x=0",
+        "y轴"
+      ],
+      "answer": "x=μ",
+      "concept": "normal"
+    },
+    {
+      "id": "q3",
+      "prompt": "正态分布曲线的形状是？",
+      "choices": [
+        "钟形",
+        "直线",
+        "折线"
+      ],
+      "answer": "钟形",
+      "concept": "normal"
+    }
+  ],
+  "concepts": {
+    "binomial": "二项分布 B(n,p)：期望 E(X)=np，方差 D(X)=np(1−p)。",
+    "normal": "正态分布曲线呈钟形，关于直线 x=μ 对称。",
+    "symmetry": "3σ 原则描述数据集中在均值附近的比例。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "二项分布 B(10,0.2) 的期望是多少？",
+      "answer": "np=10×0.2=2。",
+      "key": "2",
+      "concept": "binomial"
+    },
+    {
+      "id": "p2",
+      "prompt": "正态分布关于直线 x=μ 怎样？",
+      "answer": "对称。",
+      "key": "对称",
+      "concept": "normal"
+    }
+  ]
+}

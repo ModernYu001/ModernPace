@@ -1,0 +1,60 @@
+{
+  "topic_label": "函数的概念与表示",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "函数 y=2x+1，当 x=3 时 y=？",
+      "choices": [
+        "7",
+        "6",
+        "5"
+      ],
+      "answer": "7",
+      "concept": "value"
+    },
+    {
+      "id": "q2",
+      "prompt": "函数中自变量的取值范围叫？",
+      "choices": [
+        "定义域",
+        "值域",
+        "对应"
+      ],
+      "answer": "定义域",
+      "concept": "domain"
+    },
+    {
+      "id": "q3",
+      "prompt": "√x 的定义域是？",
+      "choices": [
+        "x≥0",
+        "x>0",
+        "全体实数"
+      ],
+      "answer": "x≥0",
+      "concept": "domain"
+    }
+  ],
+  "concepts": {
+    "definition": "函数是两个非空数集间的一种确定的对应关系。",
+    "domain": "自变量取值范围是定义域；分母≠0、被开方数≥0等是常见限制。",
+    "value": "代入自变量求出的函数值组成值域。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "求 f(x)=1/(x−1) 的定义域。",
+      "answer": "分母≠0，x≠1。",
+      "key": "x≠1",
+      "concept": "domain"
+    },
+    {
+      "id": "p2",
+      "prompt": "f(x)=x²，求 f(3)。",
+      "answer": "9。",
+      "key": "9",
+      "concept": "value"
+    }
+  ]
+}

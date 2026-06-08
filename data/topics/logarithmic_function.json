@@ -1,0 +1,60 @@
+{
+  "topic_label": "对数函数",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "对数函数 y=log_a x 必过哪个点？",
+      "choices": [
+        "(1,0)",
+        "(0,1)",
+        "(0,0)"
+      ],
+      "answer": "(1,0)",
+      "concept": "property"
+    },
+    {
+      "id": "q2",
+      "prompt": "log_2 8 等于？",
+      "choices": [
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3",
+      "concept": "relation"
+    },
+    {
+      "id": "q3",
+      "prompt": "对数函数与什么函数互为反函数？",
+      "choices": [
+        "指数函数",
+        "幂函数",
+        "一次函数"
+      ],
+      "answer": "指数函数",
+      "concept": "relation"
+    }
+  ],
+  "concepts": {
+    "form": "对数函数 y=log_a x，要求 a>0 且 a≠1，x>0。",
+    "property": "图象都过点(1,0)。",
+    "relation": "对数函数与指数函数互为反函数；log_a N=b 等价于 a^b=N。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "求 log_10 1000。",
+      "answer": "10³=1000，所以=3。",
+      "key": "3",
+      "concept": "relation"
+    },
+    {
+      "id": "p2",
+      "prompt": "log_a 1 等于多少？",
+      "answer": "0（任何底数）。",
+      "key": "0",
+      "concept": "property"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "函数的单调性",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "y=2x+1 在 R 上是？",
+      "choices": [
+        "增函数",
+        "减函数",
+        "不单调"
+      ],
+      "answer": "增函数",
+      "concept": "increasing"
+    },
+    {
+      "id": "q2",
+      "prompt": "增函数的图象从左到右？",
+      "choices": [
+        "上升",
+        "下降",
+        "水平"
+      ],
+      "answer": "上升",
+      "concept": "increasing"
+    },
+    {
+      "id": "q3",
+      "prompt": "y=−x 在 R 上是？",
+      "choices": [
+        "增函数",
+        "减函数",
+        "常函数"
+      ],
+      "answer": "减函数",
+      "concept": "decreasing"
+    }
+  ],
+  "concepts": {
+    "increasing": "x 增大时 y 也增大的函数是增函数，图象从左到右上升。",
+    "decreasing": "x 增大时 y 减小的函数是减函数，图象从左到右下降。",
+    "judge": "可用定义或导数符号判断单调性。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "y=3x−2 在 R 上是增还是减？",
+      "answer": "k=3>0，增函数。",
+      "key": "增",
+      "concept": "increasing"
+    },
+    {
+      "id": "p2",
+      "prompt": "一次函数 y=kx+b 当 k<0 时单调性如何？",
+      "answer": "减函数。",
+      "key": "减",
+      "concept": "decreasing"
+    }
+  ]
+}

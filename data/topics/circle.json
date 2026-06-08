@@ -1,0 +1,60 @@
+{
+  "topic_label": "圆的周长与面积",
+  "grade_level": "小学六年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "圆的周长公式是？",
+      "choices": [
+        "πd",
+        "πr²",
+        "2r"
+      ],
+      "answer": "πd",
+      "concept": "circumference"
+    },
+    {
+      "id": "q2",
+      "prompt": "圆的面积公式是？",
+      "choices": [
+        "πr²",
+        "πd",
+        "2πr"
+      ],
+      "answer": "πr²",
+      "concept": "area"
+    },
+    {
+      "id": "q3",
+      "prompt": "半径2的圆周长(π取3.14)是？",
+      "choices": [
+        "6.28",
+        "12.56",
+        "3.14"
+      ],
+      "answer": "12.56",
+      "concept": "circumference"
+    }
+  ],
+  "concepts": {
+    "circumference": "圆的周长 C = πd = 2πr。",
+    "area": "圆的面积 S = πr²。",
+    "pi": "圆周率π≈3.14，是周长与直径的比值。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "半径3的圆面积(π取3.14)是多少？",
+      "answer": "3.14×3²=3.14×9=28.26。",
+      "key": "28.26",
+      "concept": "area"
+    },
+    {
+      "id": "p2",
+      "prompt": "直径10的圆周长(π取3.14)是多少？",
+      "answer": "3.14×10=31.4。",
+      "key": "31.4",
+      "concept": "circumference"
+    }
+  ]
+}

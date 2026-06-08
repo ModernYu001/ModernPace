@@ -1,0 +1,60 @@
+{
+  "topic_label": "圆",
+  "grade_level": "初中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "直径是半径的几倍？",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "2",
+      "concept": "radius_diameter"
+    },
+    {
+      "id": "q2",
+      "prompt": "同弧所对的圆周角是圆心角的？",
+      "choices": [
+        "一半",
+        "2倍",
+        "相等"
+      ],
+      "answer": "一半",
+      "concept": "circumference_angle"
+    },
+    {
+      "id": "q3",
+      "prompt": "半径5的圆，直径是？",
+      "choices": [
+        "10",
+        "5",
+        "2.5"
+      ],
+      "answer": "10",
+      "concept": "radius_diameter"
+    }
+  ],
+  "concepts": {
+    "radius_diameter": "直径 d = 2r。",
+    "circumference_angle": "同弧(或等弧)所对的圆周角等于圆心角的一半。",
+    "tangent": "圆的切线垂直于过切点的半径。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "圆的半径8，直径是多少？",
+      "answer": "8×2=16。",
+      "key": "16",
+      "concept": "radius_diameter"
+    },
+    {
+      "id": "p2",
+      "prompt": "同弧所对圆心角80°，圆周角是多少度？",
+      "answer": "80÷2=40°。",
+      "key": "40",
+      "concept": "circumference_angle"
+    }
+  ]
+}

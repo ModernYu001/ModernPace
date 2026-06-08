@@ -1,0 +1,18 @@
+{
+  "topic_label": "一次函数",
+  "grade_level": "初中二年级",
+  "questions": [
+    { "id": "q1", "prompt": "一次函数 y=2x+3 中，斜率 k 是多少？", "choices": ["2", "3", "2x"], "answer": "2", "concept": "slope" },
+    { "id": "q2", "prompt": "一次函数 y=kx+b 的图象是什么？", "choices": ["一条直线", "抛物线", "双曲线"], "answer": "一条直线", "concept": "linear_graph" },
+    { "id": "q3", "prompt": "直线 y=−x+1 与 y 轴的交点是？", "choices": ["(0,1)", "(1,0)", "(0,−1)"], "answer": "(0,1)", "concept": "intercept" }
+  ],
+  "concepts": {
+    "slope": "一次函数形如 y=kx+b，k 是斜率，决定直线的倾斜方向与陡缓。",
+    "linear_graph": "一次函数的图象是一条直线；k>0 时上升，k<0 时下降。",
+    "intercept": "b 是 y 轴截距；令 x=0 得与 y 轴交点 (0,b)，令 y=0 解出与 x 轴交点。"
+  },
+  "practice": [
+    { "id": "p1", "prompt": "求直线 y=3x−6 与 x 轴的交点。", "answer": "令 y=0：3x−6=0，x=2，交点为 (2,0)。", "key": "(2,0)", "concept": "intercept" },
+    { "id": "p2", "prompt": "已知一次函数过点 (0,2)，斜率为 −1，写出表达式。", "answer": "b=2，k=−1，所以 y=−x+2。", "key": "y=-x+2", "concept": "slope" }
+  ]
+}

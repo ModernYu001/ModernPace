@@ -1,0 +1,60 @@
+{
+  "topic_label": "直线的方程",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "直线 y=2x+3 的斜率是？",
+      "choices": [
+        "2",
+        "3",
+        "−3"
+      ],
+      "answer": "2",
+      "concept": "slope"
+    },
+    {
+      "id": "q2",
+      "prompt": "斜截式 y=kx+b 中 b 是？",
+      "choices": [
+        "斜率",
+        "纵截距",
+        "横截距"
+      ],
+      "answer": "纵截距",
+      "concept": "intercept"
+    },
+    {
+      "id": "q3",
+      "prompt": "过(0,1)斜率为2的直线方程是？",
+      "choices": [
+        "y=2x+1",
+        "y=x+2",
+        "y=2x"
+      ],
+      "answer": "y=2x+1",
+      "concept": "forms"
+    }
+  ],
+  "concepts": {
+    "slope": "斜率 k=tanα=（y2−y1)/(x2−x1)。",
+    "forms": "点斜式 y−y0=k(x−x0)，斜截式 y=kx+b。",
+    "intercept": "b 是直线与 y 轴交点的纵坐标(纵截距)。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "直线 y=−3x+6 与 y 轴的交点。",
+      "answer": "(0,6)。",
+      "key": "(0,6)",
+      "concept": "intercept"
+    },
+    {
+      "id": "p2",
+      "prompt": "斜率为2、过点(0,−1)的直线方程。",
+      "answer": "y=2x−1。",
+      "key": "y=2x−1",
+      "concept": "forms"
+    }
+  ]
+}

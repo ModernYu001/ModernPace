@@ -1,0 +1,60 @@
+{
+  "topic_label": "相似三角形",
+  "grade_level": "初中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "相似三角形的对应边？",
+      "choices": [
+        "相等",
+        "成比例",
+        "无关"
+      ],
+      "answer": "成比例",
+      "concept": "definition"
+    },
+    {
+      "id": "q2",
+      "prompt": "相似比为2，面积比为？",
+      "choices": [
+        "2",
+        "4",
+        "1/2"
+      ],
+      "answer": "4",
+      "concept": "area_ratio"
+    },
+    {
+      "id": "q3",
+      "prompt": "相似三角形对应角？",
+      "choices": [
+        "相等",
+        "互补",
+        "成比例"
+      ],
+      "answer": "相等",
+      "concept": "definition"
+    }
+  ],
+  "concepts": {
+    "definition": "对应角相等、对应边成比例的两个三角形相似。",
+    "ratio": "相似三角形对应边的比叫相似比，对应周长比等于相似比。",
+    "area_ratio": "相似三角形面积比等于相似比的平方。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "两相似三角形相似比3:1，面积比是多少？",
+      "answer": "3²:1²=9:1。",
+      "key": "9",
+      "concept": "area_ratio"
+    },
+    {
+      "id": "p2",
+      "prompt": "相似比为1:2，周长比是多少？",
+      "answer": "1:2(周长比=相似比)。",
+      "key": "1:2",
+      "concept": "ratio"
+    }
+  ]
+}

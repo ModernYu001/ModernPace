@@ -1,0 +1,60 @@
+{
+  "topic_label": "三角函数的定义与诱导公式",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "sin90° 等于？",
+      "choices": [
+        "0",
+        "1",
+        "−1"
+      ],
+      "answer": "1",
+      "concept": "special_value"
+    },
+    {
+      "id": "q2",
+      "prompt": "cos0° 等于？",
+      "choices": [
+        "0",
+        "1",
+        "−1"
+      ],
+      "answer": "1",
+      "concept": "special_value"
+    },
+    {
+      "id": "q3",
+      "prompt": "sin(−x) 等于？",
+      "choices": [
+        "sinx",
+        "−sinx",
+        "cosx"
+      ],
+      "answer": "−sinx",
+      "concept": "induced"
+    }
+  ],
+  "concepts": {
+    "definition": "在单位圆上，角终边与圆交点的纵坐标是 sin，横坐标是 cos。",
+    "special_value": "sin0°=0，sin90°=1，cos0°=1，cos90°=0。",
+    "induced": "诱导公式：sin(−x)=−sinx，cos(−x)=cosx。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "sin0° 的值是多少？",
+      "answer": "0。",
+      "key": "0",
+      "concept": "special_value"
+    },
+    {
+      "id": "p2",
+      "prompt": "cos(−x) 等于什么？",
+      "answer": "cosx（偶函数）。",
+      "key": "cosx",
+      "concept": "induced"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "小数除法",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "1.2÷0.3 等于多少？",
+      "choices": [
+        "4",
+        "0.4",
+        "40"
+      ],
+      "answer": "4",
+      "concept": "move_point"
+    },
+    {
+      "id": "q2",
+      "prompt": "除数是小数时要先把除数变成什么？",
+      "choices": [
+        "整数",
+        "分数",
+        "小数"
+      ],
+      "answer": "整数",
+      "concept": "move_point"
+    },
+    {
+      "id": "q3",
+      "prompt": "6÷0.5 等于多少？",
+      "choices": [
+        "3",
+        "12",
+        "1.2"
+      ],
+      "answer": "12",
+      "concept": "move_point"
+    }
+  ],
+  "concepts": {
+    "move_point": "把除数的小数点右移变整数，被除数同向移动相同位数。",
+    "quotient": "商的小数点与移动后被除数的小数点对齐。",
+    "round": "除不尽时按要求保留近似值。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "计算 4.8÷0.6。",
+      "answer": "48÷6=8。",
+      "key": "8",
+      "concept": "move_point"
+    },
+    {
+      "id": "p2",
+      "prompt": "计算 7.5÷0.25。",
+      "answer": "750÷25=30。",
+      "key": "30",
+      "concept": "move_point"
+    }
+  ]
+}

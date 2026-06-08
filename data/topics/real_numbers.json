@@ -1,0 +1,60 @@
+{
+  "topic_label": "实数与平方根、立方根",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "9 的算术平方根是？",
+      "choices": [
+        "3",
+        "−3",
+        "±3"
+      ],
+      "answer": "3",
+      "concept": "arithmetic_sqrt"
+    },
+    {
+      "id": "q2",
+      "prompt": "√16 等于？",
+      "choices": [
+        "4",
+        "8",
+        "±4"
+      ],
+      "answer": "4",
+      "concept": "arithmetic_sqrt"
+    },
+    {
+      "id": "q3",
+      "prompt": "8 的立方根是？",
+      "choices": [
+        "2",
+        "4",
+        "±2"
+      ],
+      "answer": "2",
+      "concept": "cube_root"
+    }
+  ],
+  "concepts": {
+    "sqrt": "若 x²=a(a≥0)，x 叫 a 的平方根，正数有两个平方根。",
+    "arithmetic_sqrt": "算术平方根是非负的那个平方根，记作 √a。",
+    "cube_root": "若 x³=a，x 叫 a 的立方根；任何数都有唯一立方根。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "求 √49。",
+      "answer": "7。",
+      "key": "7",
+      "concept": "arithmetic_sqrt"
+    },
+    {
+      "id": "p2",
+      "prompt": "求 27 的立方根。",
+      "answer": "3（因为3³=27）。",
+      "key": "3",
+      "concept": "cube_root"
+    }
+  ]
+}

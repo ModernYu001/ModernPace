@@ -1,0 +1,60 @@
+{
+  "topic_label": "三位数乘两位数",
+  "grade_level": "小学四年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "估算 312×19 大约是多少？",
+      "choices": [
+        "约600",
+        "约6000",
+        "约60000"
+      ],
+      "answer": "约6000",
+      "concept": "estimate"
+    },
+    {
+      "id": "q2",
+      "prompt": "145×30 等于多少？",
+      "choices": [
+        "435",
+        "4350",
+        "43500"
+      ],
+      "answer": "4350",
+      "concept": "algorithm"
+    },
+    {
+      "id": "q3",
+      "prompt": "208×40 的积末尾有几个0？",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "1",
+      "concept": "zero_handling"
+    }
+  ],
+  "concepts": {
+    "algorithm": "竖式：先用个位、再用十位去乘，对位后相加。",
+    "estimate": "把因数看成接近的整十整百数相乘来估算。",
+    "zero_handling": "末尾有0先不看0相乘，再在积末尾添上相应个数的0。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "计算 123×26。",
+      "answer": "123×26=3198。",
+      "key": "3198",
+      "concept": "algorithm"
+    },
+    {
+      "id": "p2",
+      "prompt": "计算 250×40。",
+      "answer": "25×4=100，末尾添两个0，=10000。",
+      "key": "10000",
+      "concept": "zero_handling"
+    }
+  ]
+}

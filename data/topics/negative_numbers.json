@@ -1,0 +1,60 @@
+{
+  "topic_label": "负数的认识",
+  "grade_level": "小学六年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "比0小的数是？",
+      "choices": [
+        "正数",
+        "负数",
+        "0"
+      ],
+      "answer": "负数",
+      "concept": "meaning"
+    },
+    {
+      "id": "q2",
+      "prompt": "−3 和 −5 哪个大？",
+      "choices": [
+        "−3",
+        "−5",
+        "相等"
+      ],
+      "answer": "−3",
+      "concept": "compare"
+    },
+    {
+      "id": "q3",
+      "prompt": "0 是正数还是负数？",
+      "choices": [
+        "正数",
+        "负数",
+        "都不是"
+      ],
+      "answer": "都不是",
+      "concept": "zero"
+    }
+  ],
+  "concepts": {
+    "meaning": "像 −1、−5 这样比0小的数是负数，表示相反意义的量。",
+    "compare": "负数都比0小；两个负数绝对值大的反而小。",
+    "zero": "0 既不是正数也不是负数，是正负数的分界。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "−2 和 1 哪个大？",
+      "answer": "1 大（负数比正数小）。",
+      "key": "1",
+      "concept": "compare"
+    },
+    {
+      "id": "p2",
+      "prompt": "零下5℃ 用负数记作什么？",
+      "answer": "−5℃。",
+      "key": "−5",
+      "concept": "meaning"
+    }
+  ]
+}

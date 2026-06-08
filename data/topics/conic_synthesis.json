@@ -1,0 +1,60 @@
+{
+  "topic_label": "圆锥曲线综合问题",
+  "grade_level": "高中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "直线与圆锥曲线交点个数常用什么判断？",
+      "choices": [
+        "联立后判别式",
+        "求导",
+        "对称轴"
+      ],
+      "answer": "联立后判别式",
+      "concept": "discriminant"
+    },
+    {
+      "id": "q2",
+      "prompt": "椭圆、双曲线、抛物线统称？",
+      "choices": [
+        "圆锥曲线",
+        "二次函数",
+        "直线"
+      ],
+      "answer": "圆锥曲线",
+      "concept": "combine"
+    },
+    {
+      "id": "q3",
+      "prompt": "研究直线与椭圆关系，先把直线代入椭圆方程再看？",
+      "choices": [
+        "判别式",
+        "周期",
+        "导数"
+      ],
+      "answer": "判别式",
+      "concept": "discriminant"
+    }
+  ],
+  "concepts": {
+    "combine": "圆锥曲线综合常把曲线方程与直线方程联立求解。",
+    "discriminant": "联立后用判别式 Δ 判断交点个数。",
+    "focus": "涉及焦点弦、定值、最值等是常见综合题型。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "直线与圆锥曲线交点个数用联立方程后的什么判断？",
+      "answer": "判别式Δ。",
+      "key": "判别式",
+      "concept": "discriminant"
+    },
+    {
+      "id": "p2",
+      "prompt": "椭圆、双曲线、抛物线统称什么曲线？",
+      "answer": "圆锥曲线。",
+      "key": "圆锥曲线",
+      "concept": "combine"
+    }
+  ]
+}

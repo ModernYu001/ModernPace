@@ -1,0 +1,60 @@
+{
+  "topic_label": "角的度量",
+  "grade_level": "小学四年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "直角是多少度？",
+      "choices": [
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "answer": "90°",
+      "concept": "classify"
+    },
+    {
+      "id": "q2",
+      "prompt": "平角是多少度？",
+      "choices": [
+        "90°",
+        "180°",
+        "360°"
+      ],
+      "answer": "180°",
+      "concept": "degree"
+    },
+    {
+      "id": "q3",
+      "prompt": "一个 120° 的角是什么角？",
+      "choices": [
+        "锐角",
+        "直角",
+        "钝角"
+      ],
+      "answer": "钝角",
+      "concept": "classify"
+    }
+  ],
+  "concepts": {
+    "degree": "周角360°，平角180°，直角90°。",
+    "classify": "小于90°是锐角，等于90°是直角，大于90°小于180°是钝角。",
+    "protractor": "量角器中心对顶点，0刻度线对一条边，读另一条边的刻度。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "3 个直角一共多少度？",
+      "answer": "3×90=270°。",
+      "key": "270",
+      "concept": "degree"
+    },
+    {
+      "id": "p2",
+      "prompt": "周角是平角的几倍？",
+      "answer": "360÷180=2 倍。",
+      "key": "2",
+      "concept": "degree"
+    }
+  ]
+}

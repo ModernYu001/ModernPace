@@ -1,0 +1,60 @@
+{
+  "topic_label": "平行四边形和梯形",
+  "grade_level": "小学四年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "平行四边形有几组对边平行？",
+      "choices": [
+        "1组",
+        "2组",
+        "0组"
+      ],
+      "answer": "2组",
+      "concept": "parallelogram_def"
+    },
+    {
+      "id": "q2",
+      "prompt": "只有一组对边平行的四边形叫什么？",
+      "choices": [
+        "平行四边形",
+        "梯形",
+        "正方形"
+      ],
+      "answer": "梯形",
+      "concept": "trapezoid_def"
+    },
+    {
+      "id": "q3",
+      "prompt": "长方形是特殊的什么图形？",
+      "choices": [
+        "梯形",
+        "平行四边形",
+        "三角形"
+      ],
+      "answer": "平行四边形",
+      "concept": "property"
+    }
+  ],
+  "concepts": {
+    "parallelogram_def": "两组对边分别平行的四边形是平行四边形。",
+    "trapezoid_def": "只有一组对边平行的四边形是梯形。",
+    "property": "长方形、正方形都是特殊的平行四边形。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "梯形有几组平行的对边？",
+      "answer": "只有1组。",
+      "key": "1",
+      "concept": "trapezoid_def"
+    },
+    {
+      "id": "p2",
+      "prompt": "平行四边形的对边有什么关系？",
+      "answer": "对边平行且相等。",
+      "key": "相等",
+      "concept": "parallelogram_def"
+    }
+  ]
+}

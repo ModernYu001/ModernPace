@@ -1,0 +1,60 @@
+{
+  "topic_label": "反比例函数",
+  "grade_level": "初中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "反比例函数的形式是？",
+      "choices": [
+        "y=kx",
+        "y=k/x",
+        "y=kx+b"
+      ],
+      "answer": "y=k/x",
+      "concept": "form"
+    },
+    {
+      "id": "q2",
+      "prompt": "反比例函数的图象是？",
+      "choices": [
+        "直线",
+        "抛物线",
+        "双曲线"
+      ],
+      "answer": "双曲线",
+      "concept": "graph"
+    },
+    {
+      "id": "q3",
+      "prompt": "反比例 y=6/x，当 x=2 时 y=？",
+      "choices": [
+        "3",
+        "12",
+        "2"
+      ],
+      "answer": "3",
+      "concept": "form"
+    }
+  ],
+  "concepts": {
+    "form": "反比例函数 y=k/x(k≠0)，可写成 xy=k。",
+    "graph": "图象是双曲线，分布在两个象限。",
+    "property": "同一函数上 xy 的乘积是常数 k。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "反比例函数 y=12/x，当 x=4 时 y 是多少？",
+      "answer": "12/4=3。",
+      "key": "3",
+      "concept": "form"
+    },
+    {
+      "id": "p2",
+      "prompt": "反比例函数 y=k/x 过点 (2,5)，k 是多少？",
+      "answer": "k=xy=2×5=10。",
+      "key": "10",
+      "concept": "property"
+    }
+  ]
+}

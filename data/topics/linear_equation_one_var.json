@@ -1,0 +1,60 @@
+{
+  "topic_label": "一元一次方程",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "解 2x=10，x 等于？",
+      "choices": [
+        "5",
+        "20",
+        "8"
+      ],
+      "answer": "5",
+      "concept": "coefficient"
+    },
+    {
+      "id": "q2",
+      "prompt": "移项要改变什么？",
+      "choices": [
+        "符号",
+        "系数",
+        "次数"
+      ],
+      "answer": "符号",
+      "concept": "move_term"
+    },
+    {
+      "id": "q3",
+      "prompt": "解 x+3=7，x 等于？",
+      "choices": [
+        "4",
+        "10",
+        "3"
+      ],
+      "answer": "4",
+      "concept": "move_term"
+    }
+  ],
+  "concepts": {
+    "move_term": "把某项从等号一边移到另一边要变号。",
+    "coefficient": "系数化为1：方程两边同除以未知数的系数。",
+    "check": "把解代回原方程检验。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "解方程 3x−2=10。",
+      "answer": "3x=12，x=4。",
+      "key": "4",
+      "concept": "coefficient"
+    },
+    {
+      "id": "p2",
+      "prompt": "解方程 2(x−1)=8。",
+      "answer": "x−1=4，x=5。",
+      "key": "5",
+      "concept": "move_term"
+    }
+  ]
+}

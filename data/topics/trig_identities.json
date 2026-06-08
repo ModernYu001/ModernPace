@@ -1,0 +1,60 @@
+{
+  "topic_label": "三角恒等变换",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "sin²x+cos²x 等于？",
+      "choices": [
+        "0",
+        "1",
+        "2"
+      ],
+      "answer": "1",
+      "concept": "pythagorean"
+    },
+    {
+      "id": "q2",
+      "prompt": "若 sinx=3/5, cosx=4/5，则 sin²x+cos²x=?",
+      "choices": [
+        "1",
+        "7/5",
+        "25"
+      ],
+      "answer": "1",
+      "concept": "pythagorean"
+    },
+    {
+      "id": "q3",
+      "prompt": "sin2x 等于？",
+      "choices": [
+        "2sinxcosx",
+        "sinx+cosx",
+        "2sinx"
+      ],
+      "answer": "2sinxcosx",
+      "concept": "double"
+    }
+  ],
+  "concepts": {
+    "pythagorean": "同角三角函数基本关系：sin²x+cos²x=1。",
+    "sum_formula": "sin(a±b)=sina cosb ± cosa sinb。",
+    "double": "二倍角公式：sin2x=2sinxcosx，cos2x=cos²x−sin²x。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "已知 sinx=0.6，求 cos²x。",
+      "answer": "cos²x=1−0.36=0.64。",
+      "key": "0.64",
+      "concept": "pythagorean"
+    },
+    {
+      "id": "p2",
+      "prompt": "sin²x+cos²x 等于多少？",
+      "answer": "1。",
+      "key": "1",
+      "concept": "pythagorean"
+    }
+  ]
+}

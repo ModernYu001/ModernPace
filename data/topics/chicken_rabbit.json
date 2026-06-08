@@ -1,0 +1,60 @@
+{
+  "topic_label": "鸡兔同笼问题",
+  "grade_level": "小学四年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "鸡有几条腿？",
+      "choices": [
+        "2",
+        "4",
+        "3"
+      ],
+      "answer": "2",
+      "concept": "legs"
+    },
+    {
+      "id": "q2",
+      "prompt": "兔有几条腿？",
+      "choices": [
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": "4",
+      "concept": "legs"
+    },
+    {
+      "id": "q3",
+      "prompt": "解鸡兔同笼问题常用什么方法？",
+      "choices": [
+        "假设法",
+        "背公式",
+        "画画"
+      ],
+      "answer": "假设法",
+      "concept": "assumption"
+    }
+  ],
+  "concepts": {
+    "legs": "鸡2条腿，兔4条腿。",
+    "assumption": "假设法：先假设全是鸡或全是兔，再根据腿数差调整。",
+    "formula": "兔数=(总腿数−2×总头数)÷(4−2)。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "鸡兔共10只，共28条腿，兔有几只？",
+      "answer": "假设全鸡20腿，差8，8÷2=4只兔。",
+      "key": "4",
+      "concept": "assumption"
+    },
+    {
+      "id": "p2",
+      "prompt": "鸡兔共8只，共22条腿，鸡有几只？",
+      "answer": "全鸡16腿，差6，兔3只，鸡5只。",
+      "key": "5",
+      "concept": "assumption"
+    }
+  ]
+}

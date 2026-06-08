@@ -1,0 +1,60 @@
+{
+  "topic_label": "导数与不等式、零点问题",
+  "grade_level": "高中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "证明不等式常构造函数再研究它的？",
+      "choices": [
+        "单调性",
+        "对称性",
+        "周期"
+      ],
+      "answer": "单调性",
+      "concept": "monotonic_to_compare"
+    },
+    {
+      "id": "q2",
+      "prompt": "用导数判断方程根的个数，常分析函数的？",
+      "choices": [
+        "单调性与极值",
+        "对称轴",
+        "周期"
+      ],
+      "answer": "单调性与极值",
+      "concept": "zero_count"
+    },
+    {
+      "id": "q3",
+      "prompt": "若 f(x) 在区间上单调递增，则它在该区间最多有几个零点？",
+      "choices": [
+        "1个",
+        "2个",
+        "无数"
+      ],
+      "answer": "1个",
+      "concept": "zero_count"
+    }
+  ],
+  "concepts": {
+    "monotonic_to_compare": "作差构造函数 g(x)，用导数判断 g 的单调性证明不等式。",
+    "zero_count": "结合单调性与极值（数形结合）判断方程根的个数。",
+    "method": "导数是研究函数性质、证明不等式的有力工具。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "函数在某区间单调递增，最多有几个零点？",
+      "answer": "1个。",
+      "key": "1",
+      "concept": "zero_count"
+    },
+    {
+      "id": "p2",
+      "prompt": "用导数证不等式常把它转化为研究函数的什么？",
+      "answer": "单调性(最值)。",
+      "key": "单调",
+      "concept": "monotonic_to_compare"
+    }
+  ]
+}

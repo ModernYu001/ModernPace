@@ -1,0 +1,60 @@
+{
+  "topic_label": "整式的加减",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "3a 和 5a 是同类项吗？",
+      "choices": [
+        "是",
+        "不是",
+        "不一定"
+      ],
+      "answer": "是",
+      "concept": "like_terms"
+    },
+    {
+      "id": "q2",
+      "prompt": "合并 2x+3x 等于？",
+      "choices": [
+        "5x",
+        "6x",
+        "5x²"
+      ],
+      "answer": "5x",
+      "concept": "combine"
+    },
+    {
+      "id": "q3",
+      "prompt": "去括号 −(a−2) 等于？",
+      "choices": [
+        "−a−2",
+        "−a+2",
+        "a−2"
+      ],
+      "answer": "−a+2",
+      "concept": "remove_paren"
+    }
+  ],
+  "concepts": {
+    "like_terms": "所含字母相同且相同字母指数也相同的项是同类项。",
+    "combine": "合并同类项：系数相加，字母和指数不变。",
+    "remove_paren": "括号前是负号，去括号时括号内各项都变号。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "合并同类项 4y−y+2y。",
+      "answer": "(4−1+2)y=5y。",
+      "key": "5y",
+      "concept": "combine"
+    },
+    {
+      "id": "p2",
+      "prompt": "化简 3a+2−(a−1)。",
+      "answer": "3a+2−a+1=2a+3。",
+      "key": "2a+3",
+      "concept": "remove_paren"
+    }
+  ]
+}

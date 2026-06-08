@@ -1,0 +1,60 @@
+{
+  "topic_label": "约分与通分",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "把 4/8 约分得？",
+      "choices": [
+        "1/2",
+        "2/4",
+        "4/8"
+      ],
+      "answer": "1/2",
+      "concept": "reduce"
+    },
+    {
+      "id": "q2",
+      "prompt": "通分 1/2 和 1/3 的公分母是？",
+      "choices": [
+        "5",
+        "6",
+        "2"
+      ],
+      "answer": "6",
+      "concept": "common_denom"
+    },
+    {
+      "id": "q3",
+      "prompt": "最简分数指分子分母？",
+      "choices": [
+        "互质",
+        "相等",
+        "都是偶数"
+      ],
+      "answer": "互质",
+      "concept": "reduce"
+    }
+  ],
+  "concepts": {
+    "reduce": "用公因数去除，约成分子分母互质的最简分数。",
+    "common_denom": "通分把异分母化成同分母，公分母常取最小公倍数。",
+    "simplest": "分子分母只有公因数1时是最简分数。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "把 6/9 约成最简分数。",
+      "answer": "6/9 = 2/3。",
+      "key": "2/3",
+      "concept": "reduce"
+    },
+    {
+      "id": "p2",
+      "prompt": "1/4 和 1/6 通分，公分母是多少？",
+      "answer": "12。",
+      "key": "12",
+      "concept": "common_denom"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "数据的分析",
+  "grade_level": "初中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "一组数据按大小排序后中间的数叫？",
+      "choices": [
+        "平均数",
+        "中位数",
+        "众数"
+      ],
+      "answer": "中位数",
+      "concept": "median"
+    },
+    {
+      "id": "q2",
+      "prompt": "出现次数最多的数叫？",
+      "choices": [
+        "众数",
+        "中位数",
+        "平均数"
+      ],
+      "answer": "众数",
+      "concept": "mode"
+    },
+    {
+      "id": "q3",
+      "prompt": "数据 2,2,3,5 的众数是？",
+      "choices": [
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": "2",
+      "concept": "mode"
+    }
+  ],
+  "concepts": {
+    "mean": "平均数 = 总和 ÷ 个数，反映总体水平。",
+    "median": "按大小排序后处于中间位置的数(偶数个取中间两数平均)。",
+    "mode": "一组数据中出现次数最多的数。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "数据 1,3,3,5,8 的中位数是多少？",
+      "answer": "排序后中间是3。",
+      "key": "3",
+      "concept": "median"
+    },
+    {
+      "id": "p2",
+      "prompt": "数据 4,4,6,10 的平均数是多少？",
+      "answer": "(4+4+6+10)÷4=6。",
+      "key": "6",
+      "concept": "mean"
+    }
+  ]
+}

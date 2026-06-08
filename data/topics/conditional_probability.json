@@ -1,0 +1,60 @@
+{
+  "topic_label": "条件概率与全概率公式",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "条件概率 P(B|A)=P(AB)/ 什么？",
+      "choices": [
+        "P(A)",
+        "P(B)",
+        "1"
+      ],
+      "answer": "P(A)",
+      "concept": "conditional"
+    },
+    {
+      "id": "q2",
+      "prompt": "若 A、B 相互独立，P(AB) 等于？",
+      "choices": [
+        "P(A)P(B)",
+        "P(A)+P(B)",
+        "0"
+      ],
+      "answer": "P(A)P(B)",
+      "concept": "independence"
+    },
+    {
+      "id": "q3",
+      "prompt": "条件概率研究在某事件发生条件下另一事件的？",
+      "choices": [
+        "概率",
+        "期望",
+        "方差"
+      ],
+      "answer": "概率",
+      "concept": "conditional"
+    }
+  ],
+  "concepts": {
+    "conditional": "条件概率 P(B|A)=P(AB)/P(A)(P(A)>0)。",
+    "total_prob": "全概率公式把复杂事件按互斥情形分解求和。",
+    "independence": "A、B 独立时 P(AB)=P(A)P(B)。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "P(A)=0.5, P(AB)=0.2，求 P(B|A)。",
+      "answer": "0.2/0.5=0.4。",
+      "key": "0.4",
+      "concept": "conditional"
+    },
+    {
+      "id": "p2",
+      "prompt": "独立事件 P(A)=0.5, P(B)=0.4，求 P(AB)。",
+      "answer": "0.5×0.4=0.2。",
+      "key": "0.2",
+      "concept": "independence"
+    }
+  ]
+}

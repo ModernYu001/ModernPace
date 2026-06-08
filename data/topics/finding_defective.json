@@ -1,0 +1,60 @@
+{
+  "topic_label": "找次品",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "找次品常用什么工具？",
+      "choices": [
+        "天平",
+        "尺子",
+        "秤砣"
+      ],
+      "answer": "天平",
+      "concept": "balance_method"
+    },
+    {
+      "id": "q2",
+      "prompt": "9个里有1个偏重的次品，分3组用天平至少称几次？",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "2",
+      "concept": "times"
+    },
+    {
+      "id": "q3",
+      "prompt": "把物品分成3份来称，是为了？",
+      "choices": [
+        "更快缩小范围",
+        "好看",
+        "凑数"
+      ],
+      "answer": "更快缩小范围",
+      "concept": "balance_method"
+    }
+  ],
+  "concepts": {
+    "balance_method": "用天平不用砝码，通过比较两边轻重缩小次品范围。",
+    "times": "每次平均分成3份，能最快缩小范围、用最少次数找到次品。",
+    "strategy": "尽量平均分成3份是最优策略。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "3个物品里1个偏重的次品，用天平至少称几次？",
+      "answer": "1次（两边各放1个）。",
+      "key": "1",
+      "concept": "times"
+    },
+    {
+      "id": "p2",
+      "prompt": "找次品分组时尽量分成几份最优？",
+      "answer": "3份。",
+      "key": "3",
+      "concept": "balance_method"
+    }
+  ]
+}

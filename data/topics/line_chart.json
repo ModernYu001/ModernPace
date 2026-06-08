@@ -1,0 +1,60 @@
+{
+  "topic_label": "折线统计图",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "折线统计图最能反映数据的？",
+      "choices": [
+        "多少",
+        "变化趋势",
+        "类别"
+      ],
+      "answer": "变化趋势",
+      "concept": "trend"
+    },
+    {
+      "id": "q2",
+      "prompt": "折线上升表示数量？",
+      "choices": [
+        "增加",
+        "减少",
+        "不变"
+      ],
+      "answer": "增加",
+      "concept": "trend"
+    },
+    {
+      "id": "q3",
+      "prompt": "看一周气温变化最适合用？",
+      "choices": [
+        "折线统计图",
+        "条形统计图",
+        "扇形图"
+      ],
+      "answer": "折线统计图",
+      "concept": "read"
+    }
+  ],
+  "concepts": {
+    "trend": "折线统计图用折线起伏反映数量的增减变化趋势。",
+    "read": "折线越陡，变化越快。",
+    "use": "反映随时间的变化，折线图最合适。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "折线从10升到25，增加了多少？",
+      "answer": "25−10=15。",
+      "key": "15",
+      "concept": "trend"
+    },
+    {
+      "id": "p2",
+      "prompt": "折线下降说明数量怎样？",
+      "answer": "减少。",
+      "key": "减少",
+      "concept": "trend"
+    }
+  ]
+}

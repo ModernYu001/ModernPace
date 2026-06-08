@@ -1,0 +1,60 @@
+{
+  "topic_label": "锐角三角函数",
+  "grade_level": "初中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "sin30° 等于？",
+      "choices": [
+        "1/2",
+        "√2/2",
+        "√3/2"
+      ],
+      "answer": "1/2",
+      "concept": "special_angle"
+    },
+    {
+      "id": "q2",
+      "prompt": "直角三角形中 sinA = 对边 ÷ ？",
+      "choices": [
+        "邻边",
+        "斜边",
+        "对边"
+      ],
+      "answer": "斜边",
+      "concept": "sin_cos_tan"
+    },
+    {
+      "id": "q3",
+      "prompt": "tan45° 等于？",
+      "choices": [
+        "1",
+        "0",
+        "√3"
+      ],
+      "answer": "1",
+      "concept": "special_angle"
+    }
+  ],
+  "concepts": {
+    "sin_cos_tan": "sinA=对边/斜边，cosA=邻边/斜边，tanA=对边/邻边。",
+    "special_angle": "sin30°=1/2，cos60°=1/2，tan45°=1，sin45°=√2/2。",
+    "range": "锐角三角函数值随角度变化。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "cos60° 的值是多少？",
+      "answer": "1/2。",
+      "key": "1/2",
+      "concept": "special_angle"
+    },
+    {
+      "id": "p2",
+      "prompt": "直角三角形对边3、斜边5，sinA 是多少？",
+      "answer": "3/5。",
+      "key": "3/5",
+      "concept": "sin_cos_tan"
+    }
+  ]
+}

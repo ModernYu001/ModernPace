@@ -1,0 +1,60 @@
+{
+  "topic_label": "二次根式",
+  "grade_level": "初中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "√a 有意义的条件是 a？",
+      "choices": [
+        "≥0",
+        ">0",
+        "<0"
+      ],
+      "answer": "≥0",
+      "concept": "meaning"
+    },
+    {
+      "id": "q2",
+      "prompt": "√8 化简为？",
+      "choices": [
+        "2√2",
+        "4√2",
+        "8"
+      ],
+      "answer": "2√2",
+      "concept": "simplify"
+    },
+    {
+      "id": "q3",
+      "prompt": "√4 等于？",
+      "choices": [
+        "2",
+        "±2",
+        "4"
+      ],
+      "answer": "2",
+      "concept": "simplify"
+    }
+  ],
+  "concepts": {
+    "meaning": "二次根式 √a 要求被开方数 a≥0。",
+    "simplify": "化最简：把被开方数中的完全平方因数开出来，如√8=2√2。",
+    "operation": "同类二次根式才能合并。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "化简 √12。",
+      "answer": "√12=√(4×3)=2√3。",
+      "key": "2√3",
+      "concept": "simplify"
+    },
+    {
+      "id": "p2",
+      "prompt": "√a 中 a 必须满足什么？",
+      "answer": "a≥0。",
+      "key": "≥0",
+      "concept": "meaning"
+    }
+  ]
+}

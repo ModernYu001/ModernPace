@@ -1,0 +1,60 @@
+{
+  "topic_label": "一元二次方程、函数与不等式",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "x²−1>0 的解集是？",
+      "choices": [
+        "x>1或x<−1",
+        "−1<x<1",
+        "x>1"
+      ],
+      "answer": "x>1或x<−1",
+      "concept": "solve_ineq"
+    },
+    {
+      "id": "q2",
+      "prompt": "x²−4<0 的解集是？",
+      "choices": [
+        "−2<x<2",
+        "x>2",
+        "x<−2"
+      ],
+      "answer": "−2<x<2",
+      "concept": "solve_ineq"
+    },
+    {
+      "id": "q3",
+      "prompt": "ax²+bx+c>0(a>0) 的解对应图象在 x 轴的？",
+      "choices": [
+        "上方部分",
+        "下方部分",
+        "交点"
+      ],
+      "answer": "上方部分",
+      "concept": "solve_ineq"
+    }
+  ],
+  "concepts": {
+    "solve_ineq": "先求对应方程的根，再结合开口方向写解集：大于取两边，小于取中间。",
+    "discriminant_link": "判别式决定根的个数，从而决定解集形态。",
+    "graph": "二次不等式的解可借助二次函数图象理解。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "解不等式 x²−5x+6<0。",
+      "answer": "(x−2)(x−3)<0，解集 2<x<3。",
+      "key": "2<x<3",
+      "concept": "solve_ineq"
+    },
+    {
+      "id": "p2",
+      "prompt": "解不等式 x²−9>0。",
+      "answer": "x>3 或 x<−3。",
+      "key": "x>3",
+      "concept": "solve_ineq"
+    }
+  ]
+}

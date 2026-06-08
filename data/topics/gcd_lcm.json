@@ -1,0 +1,60 @@
+{
+  "topic_label": "最大公因数与最小公倍数",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "12 和 18 的最大公因数是？",
+      "choices": [
+        "3",
+        "6",
+        "12"
+      ],
+      "answer": "6",
+      "concept": "gcd"
+    },
+    {
+      "id": "q2",
+      "prompt": "4 和 6 的最小公倍数是？",
+      "choices": [
+        "12",
+        "24",
+        "6"
+      ],
+      "answer": "12",
+      "concept": "lcm"
+    },
+    {
+      "id": "q3",
+      "prompt": "两个数公因数中最大的叫？",
+      "choices": [
+        "最小公倍数",
+        "最大公因数",
+        "质因数"
+      ],
+      "answer": "最大公因数",
+      "concept": "gcd"
+    }
+  ],
+  "concepts": {
+    "gcd": "几个数公有的因数中最大的一个叫最大公因数。",
+    "lcm": "几个数公有的倍数中最小的一个叫最小公倍数。",
+    "coprime": "公因数只有1的两个数叫互质数。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "求 8 和 12 的最大公因数。",
+      "answer": "4。",
+      "key": "4",
+      "concept": "gcd"
+    },
+    {
+      "id": "p2",
+      "prompt": "求 3 和 5 的最小公倍数。",
+      "answer": "15。",
+      "key": "15",
+      "concept": "lcm"
+    }
+  ]
+}

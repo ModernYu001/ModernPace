@@ -1,0 +1,60 @@
+{
+  "topic_label": "多边形的面积",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "平行四边形的面积公式是？",
+      "choices": [
+        "底×高",
+        "底×高÷2",
+        "底+高"
+      ],
+      "answer": "底×高",
+      "concept": "parallelogram_area"
+    },
+    {
+      "id": "q2",
+      "prompt": "三角形的面积公式是？",
+      "choices": [
+        "底×高",
+        "底×高÷2",
+        "底×高×2"
+      ],
+      "answer": "底×高÷2",
+      "concept": "triangle_area"
+    },
+    {
+      "id": "q3",
+      "prompt": "梯形的面积公式是？",
+      "choices": [
+        "(上底+下底)×高÷2",
+        "上底×下底",
+        "底×高"
+      ],
+      "answer": "(上底+下底)×高÷2",
+      "concept": "trapezoid_area"
+    }
+  ],
+  "concepts": {
+    "parallelogram_area": "平行四边形面积 = 底 × 高。",
+    "triangle_area": "三角形面积 = 底 × 高 ÷ 2。",
+    "trapezoid_area": "梯形面积 = (上底 + 下底) × 高 ÷ 2。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "底8、高5 的三角形面积是多少？",
+      "answer": "8×5÷2=20。",
+      "key": "20",
+      "concept": "triangle_area"
+    },
+    {
+      "id": "p2",
+      "prompt": "上底3、下底5、高4 的梯形面积是多少？",
+      "answer": "(3+5)×4÷2=16。",
+      "key": "16",
+      "concept": "trapezoid_area"
+    }
+  ]
+}

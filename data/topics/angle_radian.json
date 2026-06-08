@@ -1,0 +1,60 @@
+{
+  "topic_label": "任意角与弧度制",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "180° 等于多少弧度？",
+      "choices": [
+        "π",
+        "2π",
+        "π/2"
+      ],
+      "answer": "π",
+      "concept": "radian"
+    },
+    {
+      "id": "q2",
+      "prompt": "90° 等于多少弧度？",
+      "choices": [
+        "π/2",
+        "π",
+        "π/4"
+      ],
+      "answer": "π/2",
+      "concept": "convert"
+    },
+    {
+      "id": "q3",
+      "prompt": "π/3 弧度等于多少度？",
+      "choices": [
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "answer": "60°",
+      "concept": "convert"
+    }
+  ],
+  "concepts": {
+    "radian": "弧度制：180° = π 弧度。",
+    "convert": "角度化弧度乘 π/180，弧度化角度乘 180/π。",
+    "arc": "弧长 l = |α|·r（α为弧度）。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "把 360° 化为弧度。",
+      "answer": "2π。",
+      "key": "2π",
+      "concept": "convert"
+    },
+    {
+      "id": "p2",
+      "prompt": "把 π/6 化为角度。",
+      "answer": "180°/6=30°。",
+      "key": "30",
+      "concept": "convert"
+    }
+  ]
+}

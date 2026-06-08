@@ -1,0 +1,60 @@
+{
+  "topic_label": "概率初步",
+  "grade_level": "初中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "必然事件的概率是？",
+      "choices": [
+        "0",
+        "0.5",
+        "1"
+      ],
+      "answer": "1",
+      "concept": "range"
+    },
+    {
+      "id": "q2",
+      "prompt": "抛硬币正面朝上的概率是？",
+      "choices": [
+        "1/2",
+        "1/3",
+        "1"
+      ],
+      "answer": "1/2",
+      "concept": "equal_likely"
+    },
+    {
+      "id": "q3",
+      "prompt": "不可能事件的概率是？",
+      "choices": [
+        "0",
+        "1",
+        "0.5"
+      ],
+      "answer": "0",
+      "concept": "range"
+    }
+  ],
+  "concepts": {
+    "definition": "P(事件)=有利结果数 ÷ 所有等可能结果数。",
+    "range": "概率介于0和1之间；必然事件为1，不可能事件为0。",
+    "equal_likely": "等可能事件每个结果出现的机会相同。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "掷一枚骰子出现3的概率是多少？",
+      "answer": "1/6。",
+      "key": "1/6",
+      "concept": "definition"
+    },
+    {
+      "id": "p2",
+      "prompt": "袋中1红2白共3球，摸到白球的概率是？",
+      "answer": "2/3。",
+      "key": "2/3",
+      "concept": "definition"
+    }
+  ]
+}

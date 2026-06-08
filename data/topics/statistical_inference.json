@@ -1,0 +1,60 @@
+{
+  "topic_label": "成对数据的统计分析",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "判断两个变量线性相关程度用？",
+      "choices": [
+        "相关系数r",
+        "平均数",
+        "众数"
+      ],
+      "answer": "相关系数r",
+      "concept": "correlation"
+    },
+    {
+      "id": "q2",
+      "prompt": "相关系数 r 的取值范围是？",
+      "choices": [
+        "[−1,1]",
+        "[0,1]",
+        "[0,∞)"
+      ],
+      "answer": "[−1,1]",
+      "concept": "correlation"
+    },
+    {
+      "id": "q3",
+      "prompt": "回归分析中用来拟合数据的直线叫？",
+      "choices": [
+        "回归直线",
+        "对称轴",
+        "渐近线"
+      ],
+      "answer": "回归直线",
+      "concept": "regression"
+    }
+  ],
+  "concepts": {
+    "correlation": "相关系数 r∈[−1,1]，|r|越接近1线性相关越强。",
+    "regression": "最小二乘法得到的回归直线 ŷ=bx+a 用于预测。",
+    "scatter": "散点图可直观判断相关关系。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "相关系数 r 越接近1，线性相关越怎样？",
+      "answer": "越强(正相关)。",
+      "key": "强",
+      "concept": "correlation"
+    },
+    {
+      "id": "p2",
+      "prompt": "相关系数的取值范围是什么？",
+      "answer": "[−1,1]。",
+      "key": "[−1,1]",
+      "concept": "correlation"
+    }
+  ]
+}

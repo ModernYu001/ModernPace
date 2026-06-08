@@ -1,0 +1,60 @@
+{
+  "topic_label": "因数与倍数",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "下面哪个是 12 的因数？",
+      "choices": [
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": "6",
+      "concept": "factor"
+    },
+    {
+      "id": "q2",
+      "prompt": "下面哪个是 3 的倍数？",
+      "choices": [
+        "10",
+        "12",
+        "14"
+      ],
+      "answer": "12",
+      "concept": "multiple"
+    },
+    {
+      "id": "q3",
+      "prompt": "一个数最小的因数是？",
+      "choices": [
+        "0",
+        "1",
+        "它本身"
+      ],
+      "answer": "1",
+      "concept": "factor"
+    }
+  ],
+  "concepts": {
+    "factor": "a÷b 没有余数时 b 是 a 的因数；最小因数1，最大因数是它本身。",
+    "multiple": "一个数与非零自然数相乘的积是它的倍数；最小倍数是它本身。",
+    "finite": "因数个数有限，倍数个数无限。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "20 最大的因数是多少？",
+      "answer": "20（它本身）。",
+      "key": "20",
+      "concept": "factor"
+    },
+    {
+      "id": "p2",
+      "prompt": "5 最小的倍数是多少？",
+      "answer": "5（它本身）。",
+      "key": "5",
+      "concept": "multiple"
+    }
+  ]
+}

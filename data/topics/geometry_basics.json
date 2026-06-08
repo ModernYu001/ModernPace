@@ -1,0 +1,60 @@
+{
+  "topic_label": "几何图形初步（线段与角）",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "两点之间，什么最短？",
+      "choices": [
+        "线段",
+        "曲线",
+        "折线"
+      ],
+      "answer": "线段",
+      "concept": "segment"
+    },
+    {
+      "id": "q2",
+      "prompt": "线段中点把线段分成？",
+      "choices": [
+        "相等两段",
+        "不等两段",
+        "三段"
+      ],
+      "answer": "相等两段",
+      "concept": "midpoint"
+    },
+    {
+      "id": "q3",
+      "prompt": "角平分线把角分成？",
+      "choices": [
+        "相等两个角",
+        "直角",
+        "三个角"
+      ],
+      "answer": "相等两个角",
+      "concept": "angle_bisector"
+    }
+  ],
+  "concepts": {
+    "segment": "两点之间线段最短，连接两点线段的长度叫两点间的距离。",
+    "midpoint": "线段中点把线段分成相等的两段。",
+    "angle_bisector": "角平分线把一个角分成相等的两个角。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "线段 AB=10，M 是中点，AM 是多少？",
+      "answer": "10÷2=5。",
+      "key": "5",
+      "concept": "midpoint"
+    },
+    {
+      "id": "p2",
+      "prompt": "一个60°的角，其平分线分成两个多少度的角？",
+      "answer": "60÷2=30°。",
+      "key": "30",
+      "concept": "angle_bisector"
+    }
+  ]
+}

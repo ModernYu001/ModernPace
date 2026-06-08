@@ -1,0 +1,60 @@
+{
+  "topic_label": "正数、负数与有理数",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "下列哪个是负数？",
+      "choices": [
+        "+3",
+        "0",
+        "−2"
+      ],
+      "answer": "−2",
+      "concept": "sign"
+    },
+    {
+      "id": "q2",
+      "prompt": "有理数包括？",
+      "choices": [
+        "整数和分数",
+        "只有整数",
+        "只有正数"
+      ],
+      "answer": "整数和分数",
+      "concept": "classify"
+    },
+    {
+      "id": "q3",
+      "prompt": "0 是有理数吗？",
+      "choices": [
+        "是",
+        "不是",
+        "不一定"
+      ],
+      "answer": "是",
+      "concept": "zero"
+    }
+  ],
+  "concepts": {
+    "sign": "大于0的是正数，小于0的是负数。",
+    "classify": "整数和分数统称有理数。",
+    "zero": "0 既不是正数也不是负数，但它是有理数。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "−5 是正数还是负数？",
+      "answer": "负数。",
+      "key": "负数",
+      "concept": "sign"
+    },
+    {
+      "id": "p2",
+      "prompt": "整数和分数统称什么数？",
+      "answer": "有理数。",
+      "key": "有理数",
+      "concept": "classify"
+    }
+  ]
+}

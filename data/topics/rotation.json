@@ -1,0 +1,60 @@
+{
+  "topic_label": "旋转与中心对称",
+  "grade_level": "初中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "中心对称是旋转多少度后重合？",
+      "choices": [
+        "90°",
+        "180°",
+        "360°"
+      ],
+      "answer": "180°",
+      "concept": "center_symmetry"
+    },
+    {
+      "id": "q2",
+      "prompt": "旋转改变图形的什么？",
+      "choices": [
+        "位置",
+        "形状",
+        "大小"
+      ],
+      "answer": "位置",
+      "concept": "rotation"
+    },
+    {
+      "id": "q3",
+      "prompt": "旋转前后对应线段的长度？",
+      "choices": [
+        "相等",
+        "改变",
+        "成比例"
+      ],
+      "answer": "相等",
+      "concept": "property"
+    }
+  ],
+  "concepts": {
+    "rotation": "图形绕定点转动一定角度；只改变位置，不改变形状大小。",
+    "center_symmetry": "绕某点旋转180°后能与自身重合的图形是中心对称图形。",
+    "property": "旋转前后对应点到旋转中心距离相等，对应线段相等。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "绕中心旋转180°与自身重合的图形叫什么？",
+      "answer": "中心对称图形。",
+      "key": "中心对称",
+      "concept": "center_symmetry"
+    },
+    {
+      "id": "p2",
+      "prompt": "旋转会改变图形的形状和大小吗？",
+      "answer": "不改变，只改变位置。",
+      "key": "不改变",
+      "concept": "rotation"
+    }
+  ]
+}

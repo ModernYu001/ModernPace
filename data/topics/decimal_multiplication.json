@@ -1,0 +1,60 @@
+{
+  "topic_label": "小数乘法",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "0.3×0.2 等于多少？",
+      "choices": [
+        "0.6",
+        "0.06",
+        "0.006"
+      ],
+      "answer": "0.06",
+      "concept": "place_decimal"
+    },
+    {
+      "id": "q2",
+      "prompt": "1.2×5 等于多少？",
+      "choices": [
+        "6",
+        "0.6",
+        "60"
+      ],
+      "answer": "6",
+      "concept": "place_decimal"
+    },
+    {
+      "id": "q3",
+      "prompt": "积的小数位数等于两个因数小数位数的？",
+      "choices": [
+        "和",
+        "差",
+        "积"
+      ],
+      "answer": "和",
+      "concept": "place_decimal"
+    }
+  ],
+  "concepts": {
+    "place_decimal": "先按整数乘，再看两因数共几位小数，积就点几位小数。",
+    "zero": "积末尾的0可去掉化简。",
+    "estimate": "用估算检查积的小数点位置。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "计算 2.5×0.4。",
+      "answer": "25×4=100，两位小数→1.00=1。",
+      "key": "1",
+      "concept": "place_decimal"
+    },
+    {
+      "id": "p2",
+      "prompt": "计算 1.25×8。",
+      "answer": "1.25×8=10。",
+      "key": "10",
+      "concept": "place_decimal"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "投影与视图",
+  "grade_level": "初中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "从正前方看到的视图叫？",
+      "choices": [
+        "正视图",
+        "俯视图",
+        "侧视图"
+      ],
+      "answer": "正视图",
+      "concept": "three_views"
+    },
+    {
+      "id": "q2",
+      "prompt": "从上往下看到的视图叫？",
+      "choices": [
+        "正视图",
+        "俯视图",
+        "左视图"
+      ],
+      "answer": "俯视图",
+      "concept": "three_views"
+    },
+    {
+      "id": "q3",
+      "prompt": "三视图一般包括正视图、侧视图和？",
+      "choices": [
+        "俯视图",
+        "底视图",
+        "后视图"
+      ],
+      "answer": "俯视图",
+      "concept": "three_views"
+    }
+  ],
+  "concepts": {
+    "three_views": "三视图：正视图(主视图)、侧视图(左视图)、俯视图。",
+    "projection": "视图是物体在某方向上的正投影。",
+    "rule": "长对正、高平齐、宽相等。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "从左面看物体得到的是什么视图？",
+      "answer": "左视图(侧视图)。",
+      "key": "左视图",
+      "concept": "three_views"
+    },
+    {
+      "id": "p2",
+      "prompt": "一个球的三视图都是什么形状？",
+      "answer": "圆。",
+      "key": "圆",
+      "concept": "projection"
+    }
+  ]
+}

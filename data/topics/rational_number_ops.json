@@ -1,0 +1,18 @@
+{
+  "topic_label": "有理数运算",
+  "grade_level": "初中一年级",
+  "questions": [
+    { "id": "q1", "prompt": "计算 (−3) + (−5) = ?", "choices": ["−8", "8", "2"], "answer": "−8", "concept": "add_negatives" },
+    { "id": "q2", "prompt": "计算 (−2) × (−6) = ?", "choices": ["−12", "12", "−8"], "answer": "12", "concept": "mul_sign" },
+    { "id": "q3", "prompt": "计算 (−10) − (−4) = ?", "choices": ["−14", "−6", "6"], "answer": "−6", "concept": "subtract_negative" }
+  ],
+  "concepts": {
+    "add_negatives": "同号两数相加，取相同的符号，并把绝对值相加，如 (−3)+(−5)=−8。",
+    "mul_sign": "乘除符号法则：同号得正，异号得负。负负得正，如 (−2)×(−6)=12。",
+    "subtract_negative": "减去一个数等于加上它的相反数：(−10)−(−4)=(−10)+4=−6。"
+  },
+  "practice": [
+    { "id": "p1", "prompt": "计算 (−3) × 4 + (−2)。", "answer": "(−3)×4=−12，−12+(−2)=−14。", "key": "-14", "concept": "mul_sign" },
+    { "id": "p2", "prompt": "计算 (−8) ÷ (−2) − 5。", "answer": "(−8)÷(−2)=4，4−5=−1。", "key": "-1", "concept": "mul_sign" }
+  ]
+}

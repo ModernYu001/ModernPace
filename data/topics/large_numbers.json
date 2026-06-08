@@ -1,0 +1,60 @@
+{
+  "topic_label": "大数的认识",
+  "grade_level": "小学四年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "万位的左边一位是什么数位？",
+      "choices": [
+        "十万位",
+        "千位",
+        "百万位"
+      ],
+      "answer": "十万位",
+      "concept": "place_value"
+    },
+    {
+      "id": "q2",
+      "prompt": "三千零五万 写作（用数字）？",
+      "choices": [
+        "30050000",
+        "30005000",
+        "3005000"
+      ],
+      "answer": "30050000",
+      "concept": "read_write"
+    },
+    {
+      "id": "q3",
+      "prompt": "把 38600 四舍五入到万位约是多少？",
+      "choices": [
+        "3万",
+        "4万",
+        "39万"
+      ],
+      "answer": "4万",
+      "concept": "rounding"
+    }
+  ],
+  "concepts": {
+    "place_value": "从右起：个、十、百、千、万、十万……相邻两个计数单位间是十进关系。",
+    "read_write": "读写数从高位起，每级末尾的0不读，中间连续的0只读一个。",
+    "rounding": "四舍五入到万位看千位：满5进1，不满5舍去。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "把 274500 四舍五入到万位约是多少？",
+      "answer": "千位是4，舍去，约27万。",
+      "key": "27万",
+      "concept": "rounding"
+    },
+    {
+      "id": "p2",
+      "prompt": "50800000 读作什么？",
+      "answer": "五千零八十万。",
+      "key": "五千零八十万",
+      "concept": "read_write"
+    }
+  ]
+}

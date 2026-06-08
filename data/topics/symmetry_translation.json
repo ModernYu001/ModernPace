@@ -1,0 +1,60 @@
+{
+  "topic_label": "轴对称与平移",
+  "grade_level": "小学四年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "正方形有几条对称轴？",
+      "choices": [
+        "2",
+        "4",
+        "1"
+      ],
+      "answer": "4",
+      "concept": "axis"
+    },
+    {
+      "id": "q2",
+      "prompt": "平移后图形的形状和大小？",
+      "choices": [
+        "改变",
+        "不变",
+        "变大"
+      ],
+      "answer": "不变",
+      "concept": "translation"
+    },
+    {
+      "id": "q3",
+      "prompt": "长方形有几条对称轴？",
+      "choices": [
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": "2",
+      "concept": "axis"
+    }
+  ],
+  "concepts": {
+    "axis": "对折后两边完全重合的折痕是对称轴；正方形4条、长方形2条。",
+    "translation": "平移只改变位置，不改变形状、大小和方向。",
+    "figure": "圆有无数条对称轴，等腰三角形有1条。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "圆有多少条对称轴？",
+      "answer": "无数条。",
+      "key": "无数",
+      "concept": "axis"
+    },
+    {
+      "id": "p2",
+      "prompt": "等腰三角形有几条对称轴？",
+      "answer": "1条。",
+      "key": "1",
+      "concept": "axis"
+    }
+  ]
+}

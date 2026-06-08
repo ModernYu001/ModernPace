@@ -1,0 +1,18 @@
+{
+  "topic_label": "等差与等比数列",
+  "grade_level": "高中二年级",
+  "questions": [
+    { "id": "q1", "prompt": "等差数列 2, 5, 8, 11, ... 的公差是多少？", "choices": ["2", "3", "5"], "answer": "3", "concept": "arithmetic_diff" },
+    { "id": "q2", "prompt": "等差数列首项 a₁=1，公差 d=2，第5项 a₅ 是多少？", "choices": ["9", "11", "10"], "answer": "9", "concept": "arithmetic_term" },
+    { "id": "q3", "prompt": "等比数列 3, 6, 12, 24, ... 的公比是多少？", "choices": ["2", "3", "6"], "answer": "2", "concept": "geometric_ratio" }
+  ],
+  "concepts": {
+    "arithmetic_diff": "等差数列：相邻两项的差是常数，叫公差 d，如 5−2=3。",
+    "arithmetic_term": "等差数列通项公式 aₙ=a₁+(n−1)d，如 a₁=1,d=2 时 a₅=1+4×2=9。",
+    "geometric_ratio": "等比数列：相邻两项的比是常数，叫公比 q，通项 aₙ=a₁·q^(n−1)。"
+  },
+  "practice": [
+    { "id": "p1", "prompt": "等差数列 a₁=3，d=4，求第10项。", "answer": "aₙ=a₁+(n−1)d=3+9×4=39。", "key": "39", "concept": "arithmetic_term" },
+    { "id": "p2", "prompt": "等比数列首项2，公比3，求第4项。", "answer": "aₙ=a₁·q^(n−1)=2×3³=54。", "key": "54", "concept": "geometric_ratio" }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "鸽巢问题",
+  "grade_level": "小学六年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "把5个苹果放进4个抽屉，至少有一个抽屉有几个？",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "2",
+      "concept": "principle"
+    },
+    {
+      "id": "q2",
+      "prompt": "鸽巢原理说明的是？",
+      "choices": [
+        "至少有一个里有多个",
+        "平均分",
+        "排序"
+      ],
+      "answer": "至少有一个里有多个",
+      "concept": "principle"
+    },
+    {
+      "id": "q3",
+      "prompt": "7只鸽子飞进6个巢，至少一个巢有？",
+      "choices": [
+        "2只",
+        "1只",
+        "7只"
+      ],
+      "answer": "2只",
+      "concept": "principle"
+    }
+  ],
+  "concepts": {
+    "principle": "物体数比抽屉数多，至少有一个抽屉里有2个或更多。",
+    "general": "n+1个物体放进n个抽屉，至少一个抽屉≥2个。",
+    "extend": "m个物体n个抽屉，至少一个抽屉≥⌈m/n⌉个。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "把10本书放进3个抽屉，至少有一个抽屉不少于几本？",
+      "answer": "10÷3=3余1，至少4本。",
+      "key": "4",
+      "concept": "general"
+    },
+    {
+      "id": "p2",
+      "prompt": "13个人中至少有几人同一个月生日？",
+      "answer": "13÷12=1余1，至少2人。",
+      "key": "2",
+      "concept": "general"
+    }
+  ]
+}

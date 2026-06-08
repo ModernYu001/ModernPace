@@ -1,0 +1,60 @@
+{
+  "topic_label": "三角形的认识与内角和",
+  "grade_level": "小学四年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "三角形的内角和是多少度？",
+      "choices": [
+        "90°",
+        "180°",
+        "360°"
+      ],
+      "answer": "180°",
+      "concept": "angle_sum"
+    },
+    {
+      "id": "q2",
+      "prompt": "三角形两个角是 60° 和 70°，第三个角是？",
+      "choices": [
+        "50°",
+        "60°",
+        "70°"
+      ],
+      "answer": "50°",
+      "concept": "angle_sum"
+    },
+    {
+      "id": "q3",
+      "prompt": "有一个角是直角的三角形叫？",
+      "choices": [
+        "锐角三角形",
+        "直角三角形",
+        "钝角三角形"
+      ],
+      "answer": "直角三角形",
+      "concept": "classify"
+    }
+  ],
+  "concepts": {
+    "angle_sum": "任意三角形三个内角的和都是180°。",
+    "classify": "按角分：锐角、直角、钝角三角形。",
+    "stability": "三角形具有稳定性。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "等边三角形每个角是多少度？",
+      "answer": "180÷3=60°。",
+      "key": "60",
+      "concept": "angle_sum"
+    },
+    {
+      "id": "p2",
+      "prompt": "直角三角形有一个锐角是30°，另一个锐角是多少度？",
+      "answer": "90−30=60°。",
+      "key": "60",
+      "concept": "angle_sum"
+    }
+  ]
+}

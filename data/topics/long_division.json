@@ -1,0 +1,60 @@
+{
+  "topic_label": "除数是两位数的除法",
+  "grade_level": "小学四年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "84÷21 的商是多少？",
+      "choices": [
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "4",
+      "concept": "estimate_quotient"
+    },
+    {
+      "id": "q2",
+      "prompt": "除法里余数必须满足什么？",
+      "choices": [
+        "余数>除数",
+        "余数<除数",
+        "余数=除数"
+      ],
+      "answer": "余数<除数",
+      "concept": "remainder"
+    },
+    {
+      "id": "q3",
+      "prompt": "95÷30 的商和余数是？",
+      "choices": [
+        "商3余5",
+        "商2余35",
+        "商3余05"
+      ],
+      "answer": "商3余5",
+      "concept": "remainder"
+    }
+  ],
+  "concepts": {
+    "estimate_quotient": "试商：把除数看成接近的整十数估商，再调整。",
+    "remainder": "余数一定要比除数小，否则商还能再大。",
+    "check": "验算：商×除数+余数=被除数。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "计算 96÷16。",
+      "answer": "96÷16=6。",
+      "key": "6",
+      "concept": "estimate_quotient"
+    },
+    {
+      "id": "p2",
+      "prompt": "100÷7 的余数是多少？",
+      "answer": "14×7=98，100−98=2，余数为2。",
+      "key": "2",
+      "concept": "remainder"
+    }
+  ]
+}

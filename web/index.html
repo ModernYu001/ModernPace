@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Pace — AI 学习教练</title>
+<style>
+  :root{ --indigo:#1E1B4B; --violet:#6D28D9; --amber:#FBBF24; --ink:#1F2937;
+         --mute:#6B7280; --cloud:#F5F3FF; --line:#E5E7EB; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
+        color:var(--ink); background:#FAFAFC; }
+  header{ background:var(--indigo); color:#fff; padding:18px 24px; }
+  header h1{ margin:0; font-size:22px; }
+  header p{ margin:4px 0 0; color:#C7D2FE; font-size:13px; }
+  main{ max-width:840px; margin:0 auto; padding:20px 16px 60px; }
+  .card{ background:#fff; border:1px solid var(--line); border-radius:14px;
+         padding:18px 20px; margin:16px 0; box-shadow:0 1px 3px rgba(30,27,75,.06); }
+  .card h2{ margin:0 0 12px; font-size:16px; color:var(--violet); }
+  .step{ font-size:12px; color:var(--mute); letter-spacing:1px; }
+  input,select,button,textarea{ font:inherit; }
+  input[type=text]{ width:100%; padding:10px 12px; border:1px solid var(--line);
+    border-radius:10px; }
+  select{ padding:9px 12px; border:1px solid var(--line); border-radius:10px; }
+  button{ background:var(--violet); color:#fff; border:0; border-radius:10px;
+    padding:10px 16px; cursor:pointer; font-weight:600; }
+  button.ghost{ background:#fff; color:var(--violet); border:1px solid var(--violet); }
+  button:disabled{ opacity:.5; cursor:default; }
+  .q{ margin:12px 0; padding-bottom:10px; border-bottom:1px dashed var(--line); }
+  .q .opts label{ display:inline-block; margin:4px 10px 4px 0; font-size:14px; }
+  .pace{ background:var(--cloud); border-radius:10px; padding:10px 12px; margin:8px 0; }
+  .me{ background:#Eef2ff; border-radius:10px; padding:10px 12px; margin:8px 0; text-align:right; }
+  pre{ white-space:pre-wrap; font:inherit; margin:0; }
+  .row{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  .hidden{ display:none; }
+  .ok{ color:#10B981; font-weight:700; } .no{ color:#EF4444; font-weight:700; }
+  .muted{ color:var(--mute); font-size:13px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🎓 Pace — 你的 AI 学习教练</h1>
+  <p>全 K-12 数学（115 个专题） · 路由 → 诊断 → 辅导 → 批改 → 报告</p>
+</header>
+<main>
+
+  <div class="card">
+    <div class="step">STEP 0 · 选主题</div>
+    <h2>你想学什么？</h2>
+    <div class="row">
+      <input id="want" type="text" placeholder="用大白话，例如：我想学分数 / 判别式 / 勾股定理"/>
+      <button onclick="route()">智能选题</button>
+    </div>
+    <div class="row" style="margin-top:10px">
+      <span class="muted">或直接选：</span>
+      <select id="picker"></select>
+      <button class="ghost" onclick="usePicker()">开始</button>
+    </div>
+    <div id="routeMsg" class="muted" style="margin-top:8px"></div>
+  </div>
+
+  <div id="quizCard" class="card hidden">
+    <div class="step">STEP 1 · 诊断小测</div>
+    <h2 id="quizTitle"></h2>
+    <div id="quiz"></div>
+    <button onclick="diagnose()">提交，看诊断</button>
+  </div>
+
+  <div id="diagCard" class="card hidden">
+    <div class="step">STEP 2 · 诊断结果 + 学习计划（代码确定性生成，不调模型）</div>
+    <h2>诊断</h2>
+    <pre id="diag"></pre>
+    <h2 style="margin-top:14px">学习计划</h2>
+    <pre id="plan"></pre>
+    <button onclick="startTutor()">开始一对一辅导 →</button>
+  </div>
+
+  <div id="tutorCard" class="card hidden">
+    <div class="step">STEP 3 · 苏格拉底式辅导（LLM）</div>
+    <h2>Pace 老师</h2>
+    <div id="chat"></div>
+    <div class="row">
+      <input id="msg" type="text" placeholder="输入你的回答…" onkeydown="if(event.key==='Enter')send()"/>
+      <button onclick="send()">发送</button>
+      <button class="ghost" onclick="showPractice()">去做练习 →</button>
+    </div>
+  </div>
+
+  <div id="pracCard" class="card hidden">
+    <div class="step">STEP 4 · 练习批改（对照答案库判分，杜绝幻觉）</div>
+    <h2 id="pracPrompt"></h2>
+    <div class="row">
+      <input id="pracAns" type="text" placeholder="你的答案"/>
+      <button onclick="grade()">提交批改</button>
+    </div>
+    <pre id="gradeOut" style="margin-top:10px"></pre>
+    <button id="reportBtn" class="ghost hidden" onclick="report()">生成家长报告 →</button>
+  </div>
+
+  <div id="reportCard" class="card hidden">
+    <div class="step">STEP 5 · 家长周报</div>
+    <pre id="report"></pre>
+    <p class="muted">✅ 完整闭环：路由 → 诊断 → 计划 → 辅导 → 批改 → 报告</p>
+  </div>
+
+</main>
+<script>
+let state = { topic:null, answers:{}, diagnosis:"", session:"", gradeOk:false };
+const $ = id => document.getElementById(id);
+
+async function jget(u){ return (await fetch(u)).json(); }
+async function jpost(u,b){ return (await fetch(u,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(b)})).json(); }
+
+// load topic dropdown
+jget("/api/topics").then(d=>{
+  const sel=$("picker");
+  d.topics.forEach(t=>{ const o=document.createElement("option"); o.value=t.id; o.textContent=`${t.grade} · ${t.label}`; sel.appendChild(o); });
+});
+
+async function route(){
+  const text=$("want").value.trim(); if(!text) return;
+  const r=await jpost("/api/route",{text});
+  if(!r.topic){ $("routeMsg").textContent="⚠️ 暂时没有匹配的主题，换个说法或从下拉里选。"; return; }
+  $("routeMsg").textContent="";
+  loadQuiz(r.topic);
+}
+function usePicker(){ loadQuiz($("picker").value); }
+
+async function loadQuiz(topic){
+  state.topic=topic; state.answers={};
+  const q=await jget("/api/quiz?topic="+encodeURIComponent(topic));
+  $("quizTitle").textContent=`${q.topic_label}（${q.grade_level}）`;
+  $("quiz").innerHTML="";
+  q.questions.forEach(item=>{
+    const div=document.createElement("div"); div.className="q";
+    let opts=(item.choices||[]).map(c=>`<label><input type="radio" name="${item.id}" value="${c.replace(/"/g,'&quot;')}"> ${c}</label>`).join("");
+    if(!opts) opts=`<input type="text" data-q="${item.id}" placeholder="你的答案">`;
+    div.innerHTML=`<div><b>${item.id}.</b> ${item.prompt}</div><div class="opts">${opts}</div>`;
+    $("quiz").appendChild(div);
+  });
+  show("quizCard"); hide("diagCard","tutorCard","pracCard","reportCard");
+  $("quizCard").scrollIntoView({behavior:"smooth"});
+}
+
+async function diagnose(){
+  const ans={};
+  document.querySelectorAll('#quiz input[type=radio]:checked').forEach(r=>ans[r.name]=r.value);
+  document.querySelectorAll('#quiz input[type=text]').forEach(t=>{ if(t.value) ans[t.dataset.q]=t.value; });
+  state.answers=ans;
+  const d=await jpost("/api/diagnose",{topic:state.topic,answers:ans});
+  state.diagnosis=d.card;
+  $("diag").textContent=d.card; $("plan").textContent=d.plan;
+  show("diagCard"); $("diagCard").scrollIntoView({behavior:"smooth"});
+}
+
+async function startTutor(){
+  show("tutorCard"); $("chat").innerHTML=""; state.session="";
+  const r=await jpost("/api/tutor",{topic:state.topic,diagnosis:state.diagnosis});
+  state.session=r.session; addMsg(r.reply,"pace");
+  $("tutorCard").scrollIntoView({behavior:"smooth"});
+}
+async function send(){
+  const m=$("msg").value.trim(); if(!m) return; $("msg").value="";
+  addMsg(m,"me");
+  const r=await jpost("/api/tutor",{session:state.session,message:m});
+  addMsg(r.reply,"pace");
+}
+function addMsg(t,who){ const d=document.createElement("div"); d.className=who; d.innerHTML=(who==="pace"?"👩‍🏫 ":"")+t; $("chat").appendChild(d); d.scrollIntoView({behavior:"smooth"}); }
+
+async function showPractice(){
+  const p=await jget("/api/practice?topic="+encodeURIComponent(state.topic));
+  $("pracPrompt").textContent=p.prompt; show("pracCard"); $("pracCard").scrollIntoView({behavior:"smooth"});
+}
+async function grade(){
+  const a=$("pracAns").value.trim(); if(!a) return;
+  const r=await jpost("/api/grade",{topic:state.topic,answer:a});
+  state.gradeOk=r.ok;
+  $("gradeOut").innerHTML=`<span class="${r.ok?'ok':'no'}">${r.feedback}</span>`;
+  show2($("reportBtn"));
+}
+async function report(){
+  const r=await jpost("/api/report",{topic:state.topic,answers:state.answers,ok:state.gradeOk});
+  $("report").textContent=r.report; show("reportCard"); $("reportCard").scrollIntoView({behavior:"smooth"});
+}
+
+function show(id){ $(id).classList.remove("hidden"); }
+function show2(el){ el.classList.remove("hidden"); }
+function hide(...ids){ ids.forEach(i=>$(i).classList.add("hidden")); }
+</script>
+</body>
+</html>

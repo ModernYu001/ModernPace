@@ -1,0 +1,60 @@
+{
+  "topic_label": "长方体和正方体",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "长方体的体积公式是？",
+      "choices": [
+        "长×宽×高",
+        "长+宽+高",
+        "长×宽"
+      ],
+      "answer": "长×宽×高",
+      "concept": "volume_cuboid"
+    },
+    {
+      "id": "q2",
+      "prompt": "棱长2的正方体体积是？",
+      "choices": [
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": "8",
+      "concept": "volume_cube"
+    },
+    {
+      "id": "q3",
+      "prompt": "正方体有几个面？",
+      "choices": [
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "6",
+      "concept": "surface"
+    }
+  ],
+  "concepts": {
+    "volume_cuboid": "长方体体积 = 长 × 宽 × 高。",
+    "volume_cube": "正方体体积 = 棱长 × 棱长 × 棱长。",
+    "surface": "正方体有6个完全相同的正方形面。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "长5、宽3、高2 的长方体体积是多少？",
+      "answer": "5×3×2=30。",
+      "key": "30",
+      "concept": "volume_cuboid"
+    },
+    {
+      "id": "p2",
+      "prompt": "棱长4的正方体体积是多少？",
+      "answer": "4×4×4=64。",
+      "key": "64",
+      "concept": "volume_cube"
+    }
+  ]
+}

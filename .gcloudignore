@@ -1,0 +1,12 @@
+# Files NOT uploaded to Cloud Build when deploying with `gcloud run deploy --source .`
+.git/
+.gitignore
+.env
+.pace_cache.json
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+.DS_Store
+.env.deploy.yaml

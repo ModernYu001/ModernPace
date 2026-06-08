@@ -1,0 +1,60 @@
+{
+  "topic_label": "函数与导数综合",
+  "grade_level": "高中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "求曲线在某点的切线，需要先求该点的？",
+      "choices": [
+        "导数(斜率)",
+        "面积",
+        "周期"
+      ],
+      "answer": "导数(斜率)",
+      "concept": "tangent_line"
+    },
+    {
+      "id": "q2",
+      "prompt": "函数综合题常综合运用单调性、极值和？",
+      "choices": [
+        "最值",
+        "对称轴",
+        "周期"
+      ],
+      "answer": "最值",
+      "concept": "combine"
+    },
+    {
+      "id": "q3",
+      "prompt": "f(x)=x² 在 x=1 处切线斜率 f'(1) 等于？",
+      "choices": [
+        "2",
+        "1",
+        "0"
+      ],
+      "answer": "2",
+      "concept": "tangent_line"
+    }
+  ],
+  "concepts": {
+    "combine": "综合题常把单调性、极值、最值与零点、不等式结合考查。",
+    "tangent_line": "切线斜率 = 该点导数值，再用点斜式写切线方程。",
+    "application": "导数广泛用于最优化等实际问题。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "f(x)=x²，求在 x=1 处切线的斜率。",
+      "answer": "f'(x)=2x，f'(1)=2。",
+      "key": "2",
+      "concept": "tangent_line"
+    },
+    {
+      "id": "p2",
+      "prompt": "求函数最值通常比较极值与什么？",
+      "answer": "端点值。",
+      "key": "端点",
+      "concept": "combine"
+    }
+  ]
+}

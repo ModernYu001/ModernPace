@@ -1,0 +1,60 @@
+{
+  "topic_label": "数据的收集、整理与描述",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "调查全国人口适合用？",
+      "choices": [
+        "普查",
+        "抽样",
+        "估计"
+      ],
+      "answer": "普查",
+      "concept": "survey"
+    },
+    {
+      "id": "q2",
+      "prompt": "某数据出现的次数叫？",
+      "choices": [
+        "频数",
+        "平均数",
+        "中位数"
+      ],
+      "answer": "频数",
+      "concept": "frequency"
+    },
+    {
+      "id": "q3",
+      "prompt": "了解一批灯泡寿命适合用？",
+      "choices": [
+        "普查",
+        "抽样调查",
+        "不调查"
+      ],
+      "answer": "抽样调查",
+      "concept": "survey"
+    }
+  ],
+  "concepts": {
+    "survey": "普查适合范围小或要求精确；抽样适合范围大或有破坏性。",
+    "frequency": "一个数据出现的次数叫频数，频数÷总数叫频率。",
+    "chart": "用统计表和统计图整理、描述数据。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "一组数据中 5 出现了3次，5 的频数是多少？",
+      "answer": "3。",
+      "key": "3",
+      "concept": "frequency"
+    },
+    {
+      "id": "p2",
+      "prompt": "调查有破坏性时应采用普查还是抽样？",
+      "answer": "抽样调查。",
+      "key": "抽样",
+      "concept": "survey"
+    }
+  ]
+}

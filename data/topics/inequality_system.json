@@ -1,0 +1,60 @@
+{
+  "topic_label": "不等式与不等式组",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "解不等式 x+2>5 得？",
+      "choices": [
+        "x>3",
+        "x<3",
+        "x>7"
+      ],
+      "answer": "x>3",
+      "concept": "solve"
+    },
+    {
+      "id": "q2",
+      "prompt": "不等式两边同乘负数，不等号？",
+      "choices": [
+        "不变",
+        "改变方向",
+        "消失"
+      ],
+      "answer": "改变方向",
+      "concept": "sign_flip"
+    },
+    {
+      "id": "q3",
+      "prompt": "−2x>4 的解是？",
+      "choices": [
+        "x>−2",
+        "x<−2",
+        "x>2"
+      ],
+      "answer": "x<−2",
+      "concept": "sign_flip"
+    }
+  ],
+  "concepts": {
+    "solve": "解不等式与解方程类似，得到的是一个解集。",
+    "sign_flip": "不等式两边同乘或除以同一个负数，不等号要改变方向。",
+    "number_line": "解集可在数轴上表示。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "解不等式 3x<12。",
+      "answer": "x<4。",
+      "key": "x<4",
+      "concept": "solve"
+    },
+    {
+      "id": "p2",
+      "prompt": "解不等式 −x>3。",
+      "answer": "两边乘−1并变号：x<−3。",
+      "key": "x<−3",
+      "concept": "sign_flip"
+    }
+  ]
+}

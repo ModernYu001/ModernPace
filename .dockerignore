@@ -1,0 +1,14 @@
+# Keep secrets, caches, and local cruft out of the image / build context.
+.env
+.pace_cache.json
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+.git/
+.gitignore
+.DS_Store
+*.md
+!README.md
+.env.deploy.yaml

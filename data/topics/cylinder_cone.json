@@ -1,0 +1,60 @@
+{
+  "topic_label": "圆柱与圆锥",
+  "grade_level": "小学六年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "圆柱的体积公式是？",
+      "choices": [
+        "底面积×高",
+        "底面积×高÷3",
+        "2πr"
+      ],
+      "answer": "底面积×高",
+      "concept": "cylinder_volume"
+    },
+    {
+      "id": "q2",
+      "prompt": "等底等高时，圆锥体积是圆柱的？",
+      "choices": [
+        "1/2",
+        "1/3",
+        "3倍"
+      ],
+      "answer": "1/3",
+      "concept": "cone_volume"
+    },
+    {
+      "id": "q3",
+      "prompt": "圆锥的体积公式是？",
+      "choices": [
+        "底面积×高",
+        "底面积×高×1/3",
+        "πr²"
+      ],
+      "answer": "底面积×高×1/3",
+      "concept": "cone_volume"
+    }
+  ],
+  "concepts": {
+    "cylinder_volume": "圆柱体积 = 底面积 × 高。",
+    "cone_volume": "圆锥体积 = 底面积 × 高 × 1/3。",
+    "relation": "等底等高时圆锥体积是圆柱的三分之一。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "底面积10、高6 的圆柱体积是多少？",
+      "answer": "10×6=60。",
+      "key": "60",
+      "concept": "cylinder_volume"
+    },
+    {
+      "id": "p2",
+      "prompt": "底面积9、高5 的圆锥体积是多少？",
+      "answer": "9×5×1/3=15。",
+      "key": "15",
+      "concept": "cone_volume"
+    }
+  ]
+}

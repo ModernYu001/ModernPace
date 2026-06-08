@@ -1,0 +1,60 @@
+{
+  "topic_label": "抛物线",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "抛物线上点到焦点和到准线的距离？",
+      "choices": [
+        "相等",
+        "成比例",
+        "无关"
+      ],
+      "answer": "相等",
+      "concept": "definition"
+    },
+    {
+      "id": "q2",
+      "prompt": "抛物线标准方程之一是？",
+      "choices": [
+        "y²=2px",
+        "x²+y²=1",
+        "y=1/x"
+      ],
+      "answer": "y²=2px",
+      "concept": "equation"
+    },
+    {
+      "id": "q3",
+      "prompt": "y²=4x 中 2p 等于？",
+      "choices": [
+        "4",
+        "2",
+        "1"
+      ],
+      "answer": "4",
+      "concept": "equation"
+    }
+  ],
+  "concepts": {
+    "definition": "到定点(焦点)与定直线(准线)距离相等的点的轨迹是抛物线。",
+    "equation": "标准方程 y²=2px(p>0)，焦点在 x 轴。",
+    "focus": "焦点到准线距离为 p。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "抛物线 y²=8x 中 2p 等于多少？",
+      "answer": "2p=8。",
+      "key": "8",
+      "concept": "equation"
+    },
+    {
+      "id": "p2",
+      "prompt": "抛物线上的点到焦点距离等于到什么的距离？",
+      "answer": "准线。",
+      "key": "准线",
+      "concept": "definition"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "空间点、直线、平面的位置关系",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "空间中既不相交也不平行的两直线叫？",
+      "choices": [
+        "异面直线",
+        "平行线",
+        "相交线"
+      ],
+      "answer": "异面直线",
+      "concept": "line_line"
+    },
+    {
+      "id": "q2",
+      "prompt": "直线与平面的位置关系不包括？",
+      "choices": [
+        "平行",
+        "在平面内",
+        "重合为点"
+      ],
+      "answer": "重合为点",
+      "concept": "line_plane"
+    },
+    {
+      "id": "q3",
+      "prompt": "两个平面的位置关系有平行和？",
+      "choices": [
+        "相交",
+        "重合点",
+        "异面"
+      ],
+      "answer": "相交",
+      "concept": "plane_plane"
+    }
+  ],
+  "concepts": {
+    "line_line": "空间两直线有平行、相交、异面三种关系。",
+    "line_plane": "直线与平面有平行、相交、直线在平面内三种关系。",
+    "plane_plane": "两平面只有平行或相交两种关系。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "既不平行又不相交的两条空间直线叫什么？",
+      "answer": "异面直线。",
+      "key": "异面",
+      "concept": "line_line"
+    },
+    {
+      "id": "p2",
+      "prompt": "两个不重合平面的位置关系有哪两种？",
+      "answer": "平行或相交。",
+      "key": "平行",
+      "concept": "plane_plane"
+    }
+  ]
+}

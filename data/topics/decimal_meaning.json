@@ -1,0 +1,60 @@
+{
+  "topic_label": "小数的意义和性质",
+  "grade_level": "小学四年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "0.1 表示十分之几？",
+      "choices": [
+        "十分之一",
+        "百分之一",
+        "一"
+      ],
+      "answer": "十分之一",
+      "concept": "place"
+    },
+    {
+      "id": "q2",
+      "prompt": "0.30 和 0.3 的关系是？",
+      "choices": [
+        "相等",
+        "0.30大",
+        "0.3大"
+      ],
+      "answer": "相等",
+      "concept": "property"
+    },
+    {
+      "id": "q3",
+      "prompt": "比较 0.45 和 0.5，哪个大？",
+      "choices": [
+        "0.45大",
+        "0.5大",
+        "相等"
+      ],
+      "answer": "0.5大",
+      "concept": "compare"
+    }
+  ],
+  "concepts": {
+    "place": "小数点后第一位是十分位，第二位是百分位……",
+    "property": "小数末尾添上或去掉0，小数的大小不变。",
+    "compare": "比较小数先比整数部分，再依次比十分位、百分位。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "0.6 的计数单位是多少？",
+      "answer": "0.1（十分之一）。",
+      "key": "0.1",
+      "concept": "place"
+    },
+    {
+      "id": "p2",
+      "prompt": "把 0.50 化简。",
+      "answer": "去掉末尾的0，=0.5。",
+      "key": "0.5",
+      "concept": "property"
+    }
+  ]
+}

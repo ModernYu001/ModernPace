@@ -1,0 +1,18 @@
+{
+  "topic_label": "导数与函数单调性",
+  "grade_level": "高中三年级",
+  "questions": [
+    { "id": "q1", "prompt": "函数 f(x)=x² 的导数 f'(x) 是？", "choices": ["2x", "x", "2"], "answer": "2x", "concept": "power_rule" },
+    { "id": "q2", "prompt": "若在某区间上 f'(x)>0，则函数在该区间上？", "choices": ["单调递增", "单调递减", "保持不变"], "answer": "单调递增", "concept": "monotonic" },
+    { "id": "q3", "prompt": "常数函数 f(x)=5 的导数是？", "choices": ["5", "0", "1"], "answer": "0", "concept": "derivative_constant" }
+  ],
+  "concepts": {
+    "power_rule": "幂函数求导法则：(xⁿ)'=n·xⁿ⁻¹，如 (x²)'=2x。",
+    "monotonic": "导数与单调性：f'(x)>0 时函数单调递增，f'(x)<0 时单调递减。",
+    "derivative_constant": "常数的导数为 0，因为常数函数的图象是水平线，没有变化率。"
+  },
+  "practice": [
+    { "id": "p1", "prompt": "求 f(x)=x³ 的导数，并判断 x>0 时的单调性。", "answer": "f'(x)=3x²，当 x>0 时 f'(x)>0，函数单调递增。", "key": "递增", "concept": "monotonic" },
+    { "id": "p2", "prompt": "求 f(x)=x²−4x 的单调递减区间。", "answer": "f'(x)=2x−4，令 f'(x)<0 得 x<2，故在 (−∞,2) 上单调递减。", "key": "(-∞,2)", "concept": "monotonic" }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "数列与不等式综合",
+  "grade_level": "高中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "数列综合题常先求数列的？",
+      "choices": [
+        "通项公式",
+        "对称轴",
+        "导数"
+      ],
+      "answer": "通项公式",
+      "concept": "general_term"
+    },
+    {
+      "id": "q2",
+      "prompt": "证明数列不等式常用的方法之一是？",
+      "choices": [
+        "放缩法",
+        "求导",
+        "因式分解"
+      ],
+      "answer": "放缩法",
+      "concept": "scaling"
+    },
+    {
+      "id": "q3",
+      "prompt": "数列求和后与某值比较大小，属于数列与什么的综合？",
+      "choices": [
+        "不等式",
+        "几何",
+        "概率"
+      ],
+      "answer": "不等式",
+      "concept": "sum_compare"
+    }
+  ],
+  "concepts": {
+    "general_term": "数列综合常先求通项，再求和或研究单调性。",
+    "sum_compare": "求和后与目标值比较，常结合不等式。",
+    "scaling": "放缩法是证明数列不等式的常用技巧。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "数列综合题第一步通常求什么？",
+      "answer": "通项公式。",
+      "key": "通项",
+      "concept": "general_term"
+    },
+    {
+      "id": "p2",
+      "prompt": "证明数列不等式常用哪种技巧？",
+      "answer": "放缩法。",
+      "key": "放缩",
+      "concept": "scaling"
+    }
+  ]
+}

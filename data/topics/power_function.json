@@ -1,0 +1,60 @@
+{
+  "topic_label": "幂函数",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "幂函数的形式是？",
+      "choices": [
+        "y=x^a",
+        "y=a^x",
+        "y=logx"
+      ],
+      "answer": "y=x^a",
+      "concept": "form"
+    },
+    {
+      "id": "q2",
+      "prompt": "y=x² 是幂函数吗？",
+      "choices": [
+        "是",
+        "不是",
+        "不一定"
+      ],
+      "answer": "是",
+      "concept": "special"
+    },
+    {
+      "id": "q3",
+      "prompt": "y=x^(1/2) 等价于？",
+      "choices": [
+        "√x",
+        "x²",
+        "1/x"
+      ],
+      "answer": "√x",
+      "concept": "special"
+    }
+  ],
+  "concepts": {
+    "form": "幂函数形如 y=x^a（底数是自变量，指数是常数）。",
+    "special": "常见幂函数：y=x、x²、x³、x^(1/2)=√x、x^(−1)=1/x。",
+    "graph": "幂函数都过点(1,1)。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "幂函数 y=x³ 过点 (2,?)，纵坐标是多少？",
+      "answer": "2³=8。",
+      "key": "8",
+      "concept": "special"
+    },
+    {
+      "id": "p2",
+      "prompt": "y=x^(1/2) 用根号怎么写？",
+      "answer": "√x。",
+      "key": "√x",
+      "concept": "special"
+    }
+  ]
+}

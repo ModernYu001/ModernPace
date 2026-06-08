@@ -1,0 +1,22 @@
+{
+  "topic_label": "一元二次方程的判别式",
+  "grade_level": "初中三年级",
+  "questions": [
+    { "id": "q1", "prompt": "方程 x²+4x+4=0 有几个实数解？", "choices": ["0", "1（两个相等的根）", "2"], "answer": "1（两个相等的根）", "concept": "discriminant_zero" },
+    { "id": "q2", "prompt": "方程 x²+x+5=0 有几个实数解？", "choices": ["0", "1", "2"], "answer": "0", "concept": "discriminant_negative" },
+    { "id": "q3", "prompt": "方程 x²−5x+6=0 有几个实数解？", "choices": ["0", "1", "2"], "answer": "2", "concept": "discriminant_positive" },
+    { "id": "q4", "prompt": "在 ax²+bx+c=0 中，决定实数根个数的是哪个式子？", "choices": ["a+b+c", "b²−4ac", "−b/2a"], "answer": "b²−4ac", "concept": "discriminant_meaning" },
+    { "id": "q5", "prompt": "对于 2x²+3x−2=0，判别式 b²−4ac 等于多少？", "choices": ["1", "25", "−7"], "answer": "25", "concept": "discriminant_compute" }
+  ],
+  "concepts": {
+    "discriminant_meaning": "判别式是 b²−4ac，在解方程之前就能判断实数根的个数。",
+    "discriminant_positive": "若 b²−4ac>0，方程有两个不相等的实数根。",
+    "discriminant_zero": "若 b²−4ac=0，方程有一个实数根（两个相等的根）。",
+    "discriminant_negative": "若 b²−4ac<0，方程没有实数根。",
+    "discriminant_compute": "计算时先确定 a、b、c（注意符号），再求 b·b−4·a·c。"
+  },
+  "practice": [
+    { "id": "p1", "prompt": "不解方程，判断 x²−6x+9=0 有几个实数根？用判别式说明。", "answer": "一个重根，因为 b²−4ac=36−36=0。", "key": "1", "concept": "discriminant_zero" },
+    { "id": "p2", "prompt": "不解方程，判断 x²+2x+5=0 有几个实数根？", "answer": "没有实数根，因为 b²−4ac=4−20=−16<0。", "key": "0", "concept": "discriminant_negative" }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "平行四边形与特殊平行四边形",
+  "grade_level": "初中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "平行四边形的对角线？",
+      "choices": [
+        "互相平分",
+        "互相垂直",
+        "相等"
+      ],
+      "answer": "互相平分",
+      "concept": "parallelogram"
+    },
+    {
+      "id": "q2",
+      "prompt": "四个角都是直角的平行四边形是？",
+      "choices": [
+        "菱形",
+        "矩形",
+        "梯形"
+      ],
+      "answer": "矩形",
+      "concept": "rectangle"
+    },
+    {
+      "id": "q3",
+      "prompt": "四条边都相等的平行四边形是？",
+      "choices": [
+        "矩形",
+        "菱形",
+        "正方形"
+      ],
+      "answer": "菱形",
+      "concept": "rhombus"
+    }
+  ],
+  "concepts": {
+    "parallelogram": "平行四边形对边平行且相等，对角线互相平分。",
+    "rectangle": "有一个角是直角的平行四边形是矩形，对角线相等。",
+    "rhombus": "有一组邻边相等的平行四边形是菱形，对角线互相垂直。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "矩形的对角线有什么关系？",
+      "answer": "相等且互相平分。",
+      "key": "相等",
+      "concept": "rectangle"
+    },
+    {
+      "id": "p2",
+      "prompt": "正方形既是矩形又是什么？",
+      "answer": "菱形。",
+      "key": "菱形",
+      "concept": "rhombus"
+    }
+  ]
+}

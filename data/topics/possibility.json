@@ -1,0 +1,60 @@
+{
+  "topic_label": "可能性",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "'太阳从东边升起' 是？",
+      "choices": [
+        "一定",
+        "可能",
+        "不可能"
+      ],
+      "answer": "一定",
+      "concept": "certain"
+    },
+    {
+      "id": "q2",
+      "prompt": "'抛硬币正面朝上' 是？",
+      "choices": [
+        "一定",
+        "可能",
+        "不可能"
+      ],
+      "answer": "可能",
+      "concept": "likely"
+    },
+    {
+      "id": "q3",
+      "prompt": "盒子里全是红球，摸出白球是？",
+      "choices": [
+        "一定",
+        "可能",
+        "不可能"
+      ],
+      "answer": "不可能",
+      "concept": "impossible"
+    }
+  ],
+  "concepts": {
+    "certain": "必然发生的事件用'一定'描述。",
+    "impossible": "绝不会发生的事件用'不可能'描述。",
+    "likely": "可能发生也可能不发生用'可能'描述；数量多的可能性大。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "袋子里3红2蓝，摸红球和蓝球哪个可能性大？",
+      "answer": "红球大（3>2）。",
+      "key": "红",
+      "concept": "likely"
+    },
+    {
+      "id": "p2",
+      "prompt": "一定会发生的事，可能性是多少？",
+      "answer": "100%。",
+      "key": "100",
+      "concept": "certain"
+    }
+  ]
+}

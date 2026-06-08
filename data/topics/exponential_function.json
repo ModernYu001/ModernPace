@@ -1,0 +1,60 @@
+{
+  "topic_label": "指数函数",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "指数函数 y=a^x 必过哪个点？",
+      "choices": [
+        "(0,1)",
+        "(1,0)",
+        "(0,0)"
+      ],
+      "answer": "(0,1)",
+      "concept": "property"
+    },
+    {
+      "id": "q2",
+      "prompt": "y=2^x 是增函数还是减函数？",
+      "choices": [
+        "增",
+        "减",
+        "常"
+      ],
+      "answer": "增",
+      "concept": "monotonic"
+    },
+    {
+      "id": "q3",
+      "prompt": "指数函数的底数 a 要求？",
+      "choices": [
+        "a>0且a≠1",
+        "a<0",
+        "a=1"
+      ],
+      "answer": "a>0且a≠1",
+      "concept": "form"
+    }
+  ],
+  "concepts": {
+    "form": "指数函数 y=a^x，要求 a>0 且 a≠1。",
+    "property": "图象都过点(0,1)。",
+    "monotonic": "a>1 时是增函数，0<a<1 时是减函数。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "求 2^0 的值。",
+      "answer": "任何非零数的0次方等于1。",
+      "key": "1",
+      "concept": "property"
+    },
+    {
+      "id": "p2",
+      "prompt": "y=3^x，当 x=2 时 y=?",
+      "answer": "3²=9。",
+      "key": "9",
+      "concept": "form"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "空间几何体的表面积与体积",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "长方体体积等于？",
+      "choices": [
+        "长×宽×高",
+        "底面积",
+        "2(长+宽)"
+      ],
+      "answer": "长×宽×高",
+      "concept": "prism_volume"
+    },
+    {
+      "id": "q2",
+      "prompt": "球的体积公式是？",
+      "choices": [
+        "4/3πr³",
+        "πr²",
+        "4πr²"
+      ],
+      "answer": "4/3πr³",
+      "concept": "sphere_volume"
+    },
+    {
+      "id": "q3",
+      "prompt": "棱柱体积等于？",
+      "choices": [
+        "底面积×高",
+        "底面积×高÷3",
+        "表面积"
+      ],
+      "answer": "底面积×高",
+      "concept": "prism_volume"
+    }
+  ],
+  "concepts": {
+    "prism_volume": "柱体体积 = 底面积 × 高。",
+    "sphere_volume": "球体积 = 4/3·π·r³，球表面积 = 4πr²。",
+    "cone": "锥体体积 = 底面积 × 高 ÷ 3。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "底面积12、高5 的棱柱体积。",
+      "answer": "12×5=60。",
+      "key": "60",
+      "concept": "prism_volume"
+    },
+    {
+      "id": "p2",
+      "prompt": "半径3的球体积(用π表示)。",
+      "answer": "4/3·π·27=36π。",
+      "key": "36π",
+      "concept": "sphere_volume"
+    }
+  ]
+}

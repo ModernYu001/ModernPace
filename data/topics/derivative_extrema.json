@@ -1,0 +1,60 @@
+{
+  "topic_label": "导数与函数的极值、最值",
+  "grade_level": "高中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "求极值先令导数等于？",
+      "choices": [
+        "0",
+        "1",
+        "x"
+      ],
+      "answer": "0",
+      "concept": "critical"
+    },
+    {
+      "id": "q2",
+      "prompt": "在极小值点附近导数符号？",
+      "choices": [
+        "由负变正",
+        "由正变负",
+        "不变"
+      ],
+      "answer": "由负变正",
+      "concept": "extreme"
+    },
+    {
+      "id": "q3",
+      "prompt": "f'(x)=0 的点叫？",
+      "choices": [
+        "驻点(可能极值点)",
+        "零点",
+        "拐点"
+      ],
+      "answer": "驻点(可能极值点)",
+      "concept": "critical"
+    }
+  ],
+  "concepts": {
+    "critical": "令 f'(x)=0 求驻点，再判断是否为极值点。",
+    "extreme": "极小值点导数由负变正，极大值点由正变负。",
+    "max_min": "最值在极值点和区间端点处取得，需比较。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "f(x)=x²−4x，令 f'(x)=0 求驻点。",
+      "answer": "f'=2x−4=0，x=2。",
+      "key": "2",
+      "concept": "critical"
+    },
+    {
+      "id": "p2",
+      "prompt": "极大值点处导数符号如何变化？",
+      "answer": "由正变负。",
+      "key": "由正变负",
+      "concept": "extreme"
+    }
+  ]
+}

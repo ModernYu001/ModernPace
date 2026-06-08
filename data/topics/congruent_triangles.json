@@ -1,0 +1,60 @@
+{
+  "topic_label": "全等三角形",
+  "grade_level": "初中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "全等三角形的对应边？",
+      "choices": [
+        "相等",
+        "成比例",
+        "不确定"
+      ],
+      "answer": "相等",
+      "concept": "property"
+    },
+    {
+      "id": "q2",
+      "prompt": "下面哪个不能判定三角形全等？",
+      "choices": [
+        "SSS",
+        "SAS",
+        "AAA"
+      ],
+      "answer": "AAA",
+      "concept": "criteria"
+    },
+    {
+      "id": "q3",
+      "prompt": "全等三角形的对应角？",
+      "choices": [
+        "相等",
+        "互补",
+        "成比例"
+      ],
+      "answer": "相等",
+      "concept": "property"
+    }
+  ],
+  "concepts": {
+    "definition": "能够完全重合的两个三角形叫全等三角形。",
+    "property": "全等三角形对应边相等、对应角相等、面积相等。",
+    "criteria": "判定：SSS、SAS、ASA、AAS（直角三角形还有HL）；AAA不能判定全等。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "全等三角形的面积相等吗？",
+      "answer": "相等（完全重合）。",
+      "key": "相等",
+      "concept": "property"
+    },
+    {
+      "id": "p2",
+      "prompt": "三边对应相等判定全等的简称是？",
+      "answer": "SSS。",
+      "key": "SSS",
+      "concept": "criteria"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "双曲线",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "双曲线上点到两焦点距离差的绝对值是？",
+      "choices": [
+        "常数2a",
+        "常数a",
+        "0"
+      ],
+      "answer": "常数2a",
+      "concept": "definition"
+    },
+    {
+      "id": "q2",
+      "prompt": "双曲线的标准方程是？",
+      "choices": [
+        "x²/a²−y²/b²=1",
+        "x²/a²+y²/b²=1",
+        "y=1/x"
+      ],
+      "answer": "x²/a²−y²/b²=1",
+      "concept": "equation"
+    },
+    {
+      "id": "q3",
+      "prompt": "双曲线有什么特有的直线？",
+      "choices": [
+        "渐近线",
+        "对称轴",
+        "切线"
+      ],
+      "answer": "渐近线",
+      "concept": "asymptote"
+    }
+  ],
+  "concepts": {
+    "definition": "到两定点距离差的绝对值等于常数(2a)的点的轨迹是双曲线。",
+    "equation": "标准方程 x²/a²−y²/b²=1。",
+    "asymptote": "双曲线有两条渐近线 y=±(b/a)x。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "双曲线 x²/9−y²/16=1 中 a 等于多少？",
+      "answer": "a²=9，a=3。",
+      "key": "3",
+      "concept": "equation"
+    },
+    {
+      "id": "p2",
+      "prompt": "双曲线定义涉及到两焦点距离的什么？",
+      "answer": "差的绝对值。",
+      "key": "差",
+      "concept": "definition"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic_label": "数轴、相反数与绝对值",
+  "grade_level": "初中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "−3 的相反数是？",
+      "choices": [
+        "3",
+        "−3",
+        "1/3"
+      ],
+      "answer": "3",
+      "concept": "opposite"
+    },
+    {
+      "id": "q2",
+      "prompt": "|−4| 等于？",
+      "choices": [
+        "4",
+        "−4",
+        "0"
+      ],
+      "answer": "4",
+      "concept": "absolute"
+    },
+    {
+      "id": "q3",
+      "prompt": "数轴上表示 −2 的点在原点的？",
+      "choices": [
+        "左边",
+        "右边",
+        "原点"
+      ],
+      "answer": "左边",
+      "concept": "number_line"
+    }
+  ],
+  "concepts": {
+    "number_line": "数轴有原点、正方向和单位长度；负数在原点左侧。",
+    "opposite": "只有符号不同的两个数互为相反数，0的相反数是0。",
+    "absolute": "绝对值是数轴上一个数到原点的距离，非负。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "求 |−7| 的值。",
+      "answer": "7。",
+      "key": "7",
+      "concept": "absolute"
+    },
+    {
+      "id": "p2",
+      "prompt": "5 的相反数是多少？",
+      "answer": "−5。",
+      "key": "−5",
+      "concept": "opposite"
+    }
+  ]
+}

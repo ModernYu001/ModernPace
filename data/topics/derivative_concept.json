@@ -1,0 +1,60 @@
+{
+  "topic_label": "导数的概念与运算",
+  "grade_level": "高中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "(x²)' 等于？",
+      "choices": [
+        "2x",
+        "x",
+        "2"
+      ],
+      "answer": "2x",
+      "concept": "rules"
+    },
+    {
+      "id": "q2",
+      "prompt": "导数的几何意义是曲线在该点切线的？",
+      "choices": [
+        "斜率",
+        "截距",
+        "面积"
+      ],
+      "answer": "斜率",
+      "concept": "geometric"
+    },
+    {
+      "id": "q3",
+      "prompt": "常数 c 的导数是？",
+      "choices": [
+        "c",
+        "0",
+        "1"
+      ],
+      "answer": "0",
+      "concept": "rules"
+    }
+  ],
+  "concepts": {
+    "definition": "导数是函数在某点的瞬时变化率。",
+    "rules": "幂函数 (xⁿ)'=n·xⁿ⁻¹，常数的导数为0。",
+    "geometric": "f'(x0) 是曲线在点(x0,f(x0))处切线的斜率。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "求 f(x)=x³ 的导数。",
+      "answer": "3x²。",
+      "key": "3x²",
+      "concept": "rules"
+    },
+    {
+      "id": "p2",
+      "prompt": "求 f(x)=5 的导数。",
+      "answer": "0。",
+      "key": "0",
+      "concept": "rules"
+    }
+  ]
+}

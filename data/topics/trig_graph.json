@@ -1,0 +1,60 @@
+{
+  "topic_label": "三角函数的图象与性质",
+  "grade_level": "高中一年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "y=sinx 的最小正周期是？",
+      "choices": [
+        "π",
+        "2π",
+        "π/2"
+      ],
+      "answer": "2π",
+      "concept": "period"
+    },
+    {
+      "id": "q2",
+      "prompt": "y=sinx 的值域是？",
+      "choices": [
+        "[−1,1]",
+        "[0,1]",
+        "R"
+      ],
+      "answer": "[−1,1]",
+      "concept": "range"
+    },
+    {
+      "id": "q3",
+      "prompt": "y=cosx 的最大值是？",
+      "choices": [
+        "0",
+        "1",
+        "2"
+      ],
+      "answer": "1",
+      "concept": "range"
+    }
+  ],
+  "concepts": {
+    "period": "y=sinx、y=cosx 的最小正周期是 2π；y=tanx 是 π。",
+    "range": "y=sinx、y=cosx 的值域都是[−1,1]。",
+    "amplitude": "y=Asinx 的振幅是|A|，值域是[−|A|,|A|]。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "y=sinx 的值域是什么？",
+      "answer": "[−1,1]。",
+      "key": "[−1,1]",
+      "concept": "range"
+    },
+    {
+      "id": "p2",
+      "prompt": "y=2sinx 的最大值是多少？",
+      "answer": "2。",
+      "key": "2",
+      "concept": "amplitude"
+    }
+  ]
+}

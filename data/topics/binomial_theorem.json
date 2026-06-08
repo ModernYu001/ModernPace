@@ -1,0 +1,60 @@
+{
+  "topic_label": "二项式定理",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "(a+b)² 展开式有几项？",
+      "choices": [
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3",
+      "concept": "expansion"
+    },
+    {
+      "id": "q2",
+      "prompt": "(a+b)³ = a³+3a²b+ 什么？",
+      "choices": [
+        "3ab²+b³",
+        "b³",
+        "3ab²"
+      ],
+      "answer": "3ab²+b³",
+      "concept": "expansion"
+    },
+    {
+      "id": "q3",
+      "prompt": "二项式系数来自？",
+      "choices": [
+        "杨辉三角",
+        "等差数列",
+        "对数表"
+      ],
+      "answer": "杨辉三角",
+      "concept": "coefficient"
+    }
+  ],
+  "concepts": {
+    "expansion": "(a+b)ⁿ 展开有 n+1 项。",
+    "general_term": "通项 T(k+1)=C(n,k)a^(n−k)b^k。",
+    "coefficient": "二项式系数 C(n,k) 对应杨辉三角的一行。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "展开 (a+b)²。",
+      "answer": "a²+2ab+b²。",
+      "key": "a²+2ab+b²",
+      "concept": "expansion"
+    },
+    {
+      "id": "p2",
+      "prompt": "(a+b)³ 展开式有几项？",
+      "answer": "4项。",
+      "key": "4",
+      "concept": "expansion"
+    }
+  ]
+}

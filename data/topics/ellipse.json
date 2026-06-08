@@ -1,0 +1,60 @@
+{
+  "topic_label": "椭圆",
+  "grade_level": "高中二年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "椭圆上点到两焦点距离之和是？",
+      "choices": [
+        "常数2a",
+        "常数a",
+        "变化"
+      ],
+      "answer": "常数2a",
+      "concept": "definition"
+    },
+    {
+      "id": "q2",
+      "prompt": "椭圆的标准方程是？",
+      "choices": [
+        "x²/a²+y²/b²=1",
+        "x²−y²=1",
+        "y=x²"
+      ],
+      "answer": "x²/a²+y²/b²=1",
+      "concept": "equation"
+    },
+    {
+      "id": "q3",
+      "prompt": "x²/25+y²/9=1 中 a² 等于？",
+      "choices": [
+        "25",
+        "9",
+        "16"
+      ],
+      "answer": "25",
+      "concept": "equation"
+    }
+  ],
+  "concepts": {
+    "definition": "平面内到两定点(焦点)距离之和等于常数(2a)的点的轨迹是椭圆。",
+    "equation": "标准方程 x²/a²+y²/b²=1(a>b>0)。",
+    "focus": "焦距 2c，满足 a²=b²+c²。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "椭圆 x²/16+y²/9=1 中 a 等于多少？",
+      "answer": "a²=16，a=4。",
+      "key": "4",
+      "concept": "equation"
+    },
+    {
+      "id": "p2",
+      "prompt": "椭圆定义中到两焦点距离之和是什么？",
+      "answer": "常数(2a)。",
+      "key": "常数",
+      "concept": "definition"
+    }
+  ]
+}

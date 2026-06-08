@@ -1,0 +1,60 @@
+{
+  "topic_label": "质数与合数",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "质数有几个因数？",
+      "choices": [
+        "1个",
+        "2个",
+        "3个"
+      ],
+      "answer": "2个",
+      "concept": "prime_def"
+    },
+    {
+      "id": "q2",
+      "prompt": "下面哪个是质数？",
+      "choices": [
+        "9",
+        "11",
+        "15"
+      ],
+      "answer": "11",
+      "concept": "prime_def"
+    },
+    {
+      "id": "q3",
+      "prompt": "1 是质数还是合数？",
+      "choices": [
+        "质数",
+        "合数",
+        "都不是"
+      ],
+      "answer": "都不是",
+      "concept": "special"
+    }
+  ],
+  "concepts": {
+    "prime_def": "只有1和它本身两个因数的数叫质数。",
+    "composite_def": "除了1和本身还有别的因数的数叫合数。",
+    "special": "1 既不是质数也不是合数。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "7 是质数吗？为什么？",
+      "answer": "是，因为它只有1和7两个因数。",
+      "key": "是",
+      "concept": "prime_def"
+    },
+    {
+      "id": "p2",
+      "prompt": "最小的质数是多少？",
+      "answer": "2。",
+      "key": "2",
+      "concept": "prime_def"
+    }
+  ]
+}

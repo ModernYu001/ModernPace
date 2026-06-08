@@ -1,0 +1,60 @@
+{
+  "topic_label": "简易方程",
+  "grade_level": "小学五年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "解 x+5=12，x 等于多少？",
+      "choices": [
+        "7",
+        "17",
+        "5"
+      ],
+      "answer": "7",
+      "concept": "solve"
+    },
+    {
+      "id": "q2",
+      "prompt": "解 3x=21，x 等于多少？",
+      "choices": [
+        "7",
+        "18",
+        "24"
+      ],
+      "answer": "7",
+      "concept": "solve"
+    },
+    {
+      "id": "q3",
+      "prompt": "方程两边同时加同一个数，等式？",
+      "choices": [
+        "不成立",
+        "仍成立",
+        "变大"
+      ],
+      "answer": "仍成立",
+      "concept": "balance"
+    }
+  ],
+  "concepts": {
+    "balance": "等式两边同时加减乘除同一个(非零)数，等式仍成立。",
+    "solve": "解方程就是把未知数单独留在一边。",
+    "check": "把求得的值代回原方程检验。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "解方程 x−4=10。",
+      "answer": "x=10+4=14。",
+      "key": "14",
+      "concept": "solve"
+    },
+    {
+      "id": "p2",
+      "prompt": "解方程 2x+3=11。",
+      "answer": "2x=8，x=4。",
+      "key": "4",
+      "concept": "solve"
+    }
+  ]
+}

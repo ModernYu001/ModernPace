@@ -1,0 +1,60 @@
+{
+  "topic_label": "一元二次方程",
+  "grade_level": "初中三年级",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "一般形式 ax²+bx+c=0 要求 a？",
+      "choices": [
+        "≠0",
+        "=0",
+        ">1"
+      ],
+      "answer": "≠0",
+      "concept": "form"
+    },
+    {
+      "id": "q2",
+      "prompt": "解 x²=9 得 x=？",
+      "choices": [
+        "3",
+        "±3",
+        "9"
+      ],
+      "answer": "±3",
+      "concept": "factor_method"
+    },
+    {
+      "id": "q3",
+      "prompt": "解 x²−5x+6=0 的根是？",
+      "choices": [
+        "2和3",
+        "−2和−3",
+        "1和6"
+      ],
+      "answer": "2和3",
+      "concept": "factor_method"
+    }
+  ],
+  "concepts": {
+    "form": "只含一个未知数且最高次数为2的整式方程，一般形式 ax²+bx+c=0(a≠0)。",
+    "factor_method": "因式分解法：把方程化为两个一次因式乘积为0。",
+    "formula_method": "求根公式 x=(−b±√(b²−4ac))/(2a)。"
+  },
+  "practice": [
+    {
+      "id": "p1",
+      "prompt": "解方程 x²−4=0。",
+      "answer": "x²=4，x=±2。",
+      "key": "±2",
+      "concept": "factor_method"
+    },
+    {
+      "id": "p2",
+      "prompt": "解方程 x²−3x=0。",
+      "answer": "x(x−3)=0，x=0 或 3。",
+      "key": "0或3",
+      "concept": "factor_method"
+    }
+  ]
+}
